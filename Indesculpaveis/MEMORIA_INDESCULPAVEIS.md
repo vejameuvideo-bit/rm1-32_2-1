@@ -41,15 +41,15 @@
 ## Estado atual
 
 **Criado em:** 03/10/2026 (estrutura documental; nenhuma consulta feita).
-**Fase:** [ ] Fase 0 | [ ] Pesquisa (16 prompts) | [ ] Relatório | [ ] Série | [ ] Anéis
+**Fase:** [ ] Fase 0 | [ ] **Anéis** (4, eixo 1.29–2.2) | [ ] Pesquisa (16 prompts) | [ ] Relatório | [ ] Série
 
 | Item | Status |
 |---|---|
 | Documentos de governo (este, `CLAUDE.md`, `REGRAS_RETOMADA.md`) | ✅ 03/10/2026 |
-| Escopo (`ESCOPO_INDESCULPAVEIS.md`) | ✅ — **5 decisões pendentes do usuário** (§8) |
+| Escopo (`ESCOPO_INDESCULPAVEIS.md`) | ✅ — 5 decisões tomadas em 03/10 (§8) |
 | Prompts (`prompts_indesculpaveis.md`) | ✅ 16 prompts, cláusulas fixas |
 | Sequência (`Sequencia_Indesculpaveis.md`) | ✅ 8 sessões |
-| Estratégia de anéis do eixo focal | ✅ documentada; execução depois do relatório |
+| Estratégia de anéis do eixo focal | ✅ documentada; **execução ANTES dos 16 prompts** |
 | Sentinelas | 🟡 **14 rascunhos, tabela vazia — trava ativa** |
 | Lacunas de refutação | 🟡 8 linhas, **todas ⬜ não conferidas** |
 | Curadoria | 🟡 preenchida pelos documentos; **nenhuma obra aberta** |
@@ -58,7 +58,11 @@
 
 | Notebook | ID | Fontes | Status |
 |---|---|---|---|
+| IND - Eixo 1.29-2.2 · Anel 1–4 | — | — | ⬜ criar primeiro (ESTRATEGIA §6) |
 | IND - Rm 1.18-3.20 | — | — | ⬜ criar na Fase 0, Etapa 6 |
+
+**Conta:** Pro `aleinstitutoreformado@gmail.com` · perfil `<PERFIL_PRO>` a criar.
+**Relação com a U02 do JDD:** projetos **paralelos**.
 
 ---
 
@@ -81,17 +85,19 @@
 
 | Data | Fase | O que foi feito |
 |---|---|---|
-| 03/10/2026 | 0 | Projeto criado a partir da proposta e dos moldes JDD e Romanos-Cap1. 16 prompts, escopo com 5 eixos, 14 sentinelas em rascunho (2 sobre o relatório-semente do Cap1), 8 lacunas de refutação, curadoria por documentos. Acrescidos os tópicos 6 (3.1-20) e 7 (3.21-26) por exigência da própria proposta — **a confirmar**. |
+| 03/10/2026 | 0 | Projeto criado a partir da proposta e dos moldes JDD e Romanos-Cap1. 16 prompts, escopo com 5 eixos, 14 sentinelas em rascunho (2 sobre o relatório-semente do Cap1), 8 lacunas de refutação, curadoria por documentos. Acrescidos os tópicos 6 (3.1-20) e 7 (3.21-26) por exigência da própria proposta. |
+| 03/10/2026 | 0 | Decisões do usuário: tópicos 6–7 confirmados; série de 6 × 90 min; conta Pro `aleinstitutoreformado@gmail.com`; **anéis antes do relatório**; **paralelo à U02 do JDD**. Documentos ajustados (ver `_LOG_EXECUCAO.md` §2). |
 
 ---
 
 ## Próxima ação
 
-0. **Usuário:** responder `ESCOPO_INDESCULPAVEIS.md` §8 (5 decisões).
 1. Fase 0, Etapa 1 — pasta local `C:\Users\admintrt9a\Projetos\Indesculpaveis`;
-   resolver as pendências de ambiente herdadas (login Pro; patch RPC).
+   criar o perfil da CLI para `aleinstitutoreformado@gmail.com` e conferir a
+   conta por `auth check --test`; resolver o patch RPC.
 2. Etapa 2 — copiar para `biblioteca\` as obras já presentes no JDD/Cap1;
    copiar `Relatorio_Cap2_Romanos.md` (hoje só no Drive) se for usado.
 3. Etapa 4 — verificar as sentinelas, começando pelas de custo zero:
    S1, S2, S3 (NA28) e S9 (já lida no caderno παρέδωκεν).
-4. Etapa 5 — auditar o relatório-semente (S11, S12).
+4. Etapa 5 — auditar o relatório-semente (S11, S12) — ele é semente do anel 1.
+5. Anéis 1→4 (ESTRATEGIA §6), depois os 16 prompts.

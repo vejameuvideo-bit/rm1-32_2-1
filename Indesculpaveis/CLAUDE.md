@@ -62,8 +62,8 @@ O projeto **não é de livro** (como Romanos-Cap1) **nem de tema canônico**
 
 | Camada | Escopo | Notebooks | Entregável |
 |---|---|---|---|
-| **Pesquisa** | 16 prompts em 5 blocos (A–E) | 1 notebook `IND - Rm 1.18-3.20` | 16 saídas + mapa de consistência |
-| **Aprofundamento** | eixo focal 1.29–2.2 em **anéis** (`ESTRATEGIA_ANEIS_INDESCULPAVEIS.md`) | 4 notebooks (núcleo → global) | mídia + relatório do eixo |
+| **1. Anéis** (primeiro — decisão de 03/10) | eixo focal 1.29–2.2 em **4 anéis** (`ESTRATEGIA_ANEIS_INDESCULPAVEIS.md`) | 4 notebooks (núcleo → global) | 4 relatórios de anel + mídia |
+| **2. Pesquisa** | 16 prompts em 5 blocos (A–E), com os 4 relatórios de anel como fonte de apoio | 1 notebook `IND - Rm 1.18-3.20` | 16 saídas + mapa de consistência |
 | **Síntese** | relatório consolidado + roteiro da série | 1 notebook de síntese (só relatórios) | `Relatorio_Indesculpaveis.md` + `.docx`/`.pdf` |
 
 **O notebook de síntese não recebe os PDFs.** Recebe os relatórios auditados
@@ -94,8 +94,8 @@ a esperança de 3:21-26 precisa ser ensinada"*, e o texto-base declarado vai at�
 | Projeto | O que já cobre | Como entra aqui |
 |---|---|---|
 | **Romanos-Cap1** | Rm 1.18-32 nos prompts 10–15 do `Relatorio_Cap1_Romanos.md` | **semente**, como fonte de apoio no notebook — **com auditoria prévia** (ver §4, sentinelas S11–S12) |
-| **JDD, U02** | Rm 1.18–3.20 como unidade da Justiça de Deus; Campbell, Stowers, Gathercole no acervo | o acervo JDD é a **fonte de cópia** das obras; a U02 e este projeto **não podem se contradizer** — divergência vai para o mapa de consistência das duas |
-| **Piloto Rm 1.28–32** (anéis, 29/09) | estudo aprofundado com 54 citações conferidas | **relatório-semente do anel 1** do eixo focal |
+| **JDD, U02** | Rm 1.18–3.20 como unidade da Justiça de Deus; Campbell, Stowers, Gathercole no acervo | **projetos paralelos** (decisão de 03/10/2026): nenhum alimenta o outro, nenhum relatório circula entre os dois. O acervo JDD pode ser **fonte de cópia** de obras para `biblioteca\` (FRONTEIRA IND). Divergência com a U02, se notada, é **registrada** no mapa de consistência IND como observação — não é resolvida aqui |
+| **Piloto Rm 1.28–32** (anéis, 29/09) | estudo aprofundado com 54 citações conferidas | **semente do anel 1** do eixo focal, junto com o Cap1 auditado |
 | **Romanos-Cap2** (Drive: `Relatorio_Cap2_Romanos.md`) | Rm 2 | **a copiar para `biblioteca\`** antes de qualquer uso (FRONTEIRA IND) |
 
 ---
@@ -124,6 +124,7 @@ Indesculpaveis/
 ├── biblioteca/                        ← única origem legítima de fontes
 ├── _processados_md/                   ← saídas convertidas
 ├── _fora_do_notebook/                 ← Tier D, duplicatas, quarentena
+├── aneis/                             ← anel1..4_relatorio.md (antes das saídas)
 └── saidas/                            ← 00_mapa + 01..16
 ```
 
@@ -248,10 +249,38 @@ relatório entrar no notebook como fonte.
 | IND - Eixo 1.29-2.2 · Anel 1–4 | *(criar na camada de aprofundamento)* | ⬜ | |
 | IND - Síntese | *(criar ao fim)* | ⬜ | |
 
-⚠️ **Conta e perfil:** o estado de autenticação é volátil e o perfil global da
-CLI é compartilhado entre janelas. **Não trocar o perfil global** — passar
-`-p` em cada comando. Ver `../ESTADO_ATUAL_2026-10-03.md` §6 (login da Pro
-bloqueado pelo Windows; `patch_rpc_limit.ps1` desatualizado para a 0.8.4).
+### Conta — decidida em 03/10/2026
+
+**Conta Pro do NotebookLM: `aleinstitutoreformado@gmail.com`.**
+**Perfil da CLI:** `<PERFIL_PRO>` — **ainda não criado/medido**. Na Fase 0,
+Etapa 1: fazer o login dessa conta num perfil próprio, gravar o nome do perfil
+em `perfil.config.txt` e substituir `<PERFIL_PRO>` nos documentos.
+
+⚠️ **Não confundir com as outras contas citadas nos documentos irmãos** — cada
+uma é de um papel ou projeto diferente:
+
+| Conta | Onde aparece | Papel |
+|---|---|---|
+| `aleinstitutoreformado@gmail.com` | **este projeto** | **NotebookLM Pro do IND** |
+| `alessandroinstitutoreformadosp@gmail.com` | `../CLAUDE.md` §6 (JDD) | NotebookLM + backup do JDD |
+| `alesouza@gmail.com` | `../ESTADO_ATUAL_2026-10-03.md` §1 | Pro do piloto Rm 1.28–32 |
+| `alessandronuvemti@gmail.com` | `../MEMORIA_CAP1.md` | Romanos-Cap1 (perfil `nuvemti`) |
+
+**Só `auth check --test` decide** qual conta um perfil abre de fato
+(`profile list` mente com token vencido). Conferir que o perfil abre
+**`aleinstitutoreformado@gmail.com`** antes de criar o primeiro notebook —
+notebook criado na conta errada é trabalho perdido.
+
+⚠️ **Estado global:** o perfil global da CLI é compartilhado entre janelas.
+**Não trocar o perfil global** — passar `-p <PERFIL_PRO>` em cada comando.
+Pendências herdadas (`../ESTADO_ATUAL_2026-10-03.md` §6): o login por cookies
+da Pro falhou no Windows (`rookie_cookies.pyd`, "DLL load failed … Acesso
+negado"); `patch_rpc_limit.ps1` aponta o módulo da 0.7.3. As duas incidem
+aqui.
+
+**Cota:** a cota medida (20 áudios e 20 vídeos/dia, corte 21h BRT) é **por
+conta** `[HIPÓTESE: independente das outras contas — não testada]`. Uma conta
+própria livra o IND da cota de áudio compartilhada com o projeto João.
 
 **Teto de fonte:** corte de trabalho em **450–500 mil palavras** (medido no
 molde: 461.813 passou, 540.267 falhou). Acima, `dividir_md.py`.

@@ -7,10 +7,7 @@ verificável. Não avançar sem ele. Adaptado de `../FASE_0_CHECKLIST.md` (JDD).
 
 ## Etapa 0 — Decisões do usuário
 
-Responder `ESCOPO_INDESCULPAVEIS.md` §8 (formato da série; tópicos 6–7; conta;
-anéis; relação com a U02 do JDD).
-
-**Critério:** as cinco respostas registradas em `MEMORIA_INDESCULPAVEIS.md`.
+✅ **Concluída em 03/10/2026** — ver `ESCOPO_INDESCULPAVEIS.md` §8.
 
 ## Etapa 1 — Pasta local e ambiente
 
@@ -19,14 +16,20 @@ copiar esta pasta do repositório e criar `biblioteca\`, `_processados_md\`,
 `_fora_do_notebook\`.
 
 ```powershell
-notebooklm -p default auth check --test
+notebooklm -p <PERFIL_PRO> auth check --test
 ```
 
 ⚠️ Pendências herdadas de `../ESTADO_ATUAL_2026-10-03.md` §6: login da Pro
 bloqueado (`rookie_cookies.pyd`); `patch_rpc_limit.ps1` aponta o módulo antigo
 da CLI 0.7.3. Resolver **antes** de qualquer triagem com caderno grande.
 
-**Critério:** auth válida medida por `auth check --test` (não por `profile list`).
+**Conta:** `aleinstitutoreformado@gmail.com` (Pro). Login num perfil **próprio**
+(não sobrescrever `default`, `nuvemti` nem os perfis do JDD); gravar o nome em
+`perfil.config.txt`; substituir `<PERFIL_PRO>` nos documentos.
+
+**Critério:** `notebooklm -p <PERFIL_PRO> auth check --test` válido **e** a
+conta autenticada é `aleinstitutoreformado@gmail.com` (conferir o e-mail, não
+só o "ok").
 
 ## Etapa 2 — Biblioteca (FRONTEIRA IND)
 
@@ -89,6 +92,16 @@ Gravar o ID em `projeto.config.txt` (só o ID) e anotar em `CLAUDE.md` §5.
 Conferir cada linha de `LACUNAS_REFUTACAO.md` por consulta **e** por disco.
 
 **Critério:** toda linha marcada `✅ conferido` ou com a ausência declarada.
+
+## Etapa 7-B — Os quatro anéis (antes do primeiro prompt)
+
+Decisão de 03/10/2026: os anéis do eixo 1.29–2.2 rodam **antes** dos 16
+prompts. Seguir `ESTRATEGIA_ANEIS_INDESCULPAVEIS.md` §6. Semente do anel 1:
+estudo Rm 1.28-32 do piloto + `Relatorio_Cap1_Romanos.md` auditado (Etapa 5).
+
+**Critério:** quatro relatórios em `aneis/`, auditados, e `ready` no notebook
+`IND - Rm 1.18-3.20` como fontes de apoio; mídia de cada anel contada por
+identidade.
 
 ## Etapa 8 — Primeiro prompt
 

@@ -4,7 +4,12 @@
 consolidado + roteiro da série de 6 encontros, executando no Claude Code
 contra o notebook `IND - Rm 1.18-3.20`.
 
-**Pré-requisito:** `FASE_0_CHECKLIST.md` concluído — em especial a **Etapa 4
+**Pré-requisitos:** (1) os **quatro anéis do eixo focal concluídos**
+(`ESTRATEGIA_ANEIS_INDESCULPAVEIS.md` §6), com os seus relatórios auditados e
+`ready` no notebook `IND - Rm 1.18-3.20` como fontes de apoio — decisão de
+03/10/2026: anéis antes do relatório; os prompts 9–12 partem desses
+relatórios, e contradição com eles volta ao anel; (2) `FASE_0_CHECKLIST.md`
+concluído — em especial a **Etapa 4
 (sentinelas)**: com a tabela vazia, a escrita em `saidas/` está travada.
 
 ---
@@ -13,10 +18,11 @@ contra o notebook `IND - Rm 1.18-3.20`.
 
 ```powershell
 cd C:\Users\admintrt9a\Projetos\Indesculpaveis
-notebooklm -p default auth check --test
-notebooklm -p default -n <ID-IND> source list --json   # todas ready?
+notebooklm -p <PERFIL_PRO> auth check --test
+notebooklm -p <PERFIL_PRO> -n <ID-IND> source list --json   # todas ready?
 ```
 
+`<PERFIL_PRO>` = o perfil da conta `aleinstitutoreformado@gmail.com` (gravado em `perfil.config.txt` na Fase 0).
 ⚠️ `-p` vem **antes** do subcomando; `-n` em **toda** chamada. Nunca
 `notebooklm use` (estado global compartilhado entre janelas). Nunca trocar o
 perfil global.
@@ -55,7 +61,7 @@ experimento anterior.
 ```
 Leia CLAUDE.md, REGRAS_RETOMADA.md e _artifacts/sentinelas_IND.md.
 Aplique _artifacts/persona_notebooklm.txt.
-Notebook: -p default -n <ID-IND> em TODO comando.
+Notebook: -p <PERFIL_PRO> -n <ID-IND> em TODO comando.
 Execute os prompts N, N+1 de prompts_indesculpaveis.md, cada um com as
 CLÁUSULAS FIXAS anexadas, via --prompt-file.
 Para cada prompt: consulta exegética → verificação (audita a anterior) →
@@ -80,8 +86,9 @@ sem resposta no fim da seção; "há debate" como fecho; P46 citado.
 - dependências entre saídas;
 - matriz de certeza (por tema);
 - os cinco eixos (A–E): onde cada um foi decidido e com que rótulo;
-- contradições internas a resolver — **e contradições com a U02 do JDD e com o
-  `Relatorio_Cap1_Romanos.md`** (devolver ao prompt de origem, não decidir no mapa);
+- contradições internas a resolver — **e com os 4 relatórios de anel e o
+  `Relatorio_Cap1_Romanos.md`** (devolver à origem, não decidir no mapa);
+- divergências com a U02 do JDD, se notadas: **só registro** (projetos paralelos);
 - o mapa estrutural de 1.18–3.20 com o eixo focal 1.29–2.2 destacado.
 
 ---
@@ -121,7 +128,7 @@ Se as tabelas do DOCX perderem a segunda coluna: trocar `w:w="0.0"` por
 
 ---
 
-## Depois — a camada de anéis
+## Antes de tudo isto — a camada de anéis
 
-Ver `ESTRATEGIA_ANEIS_INDESCULPAVEIS.md`. O relatório consolidado vira o
-relatório-semente dos anéis do eixo focal.
+Ver `ESTRATEGIA_ANEIS_INDESCULPAVEIS.md` §6. Os anéis rodam **antes** da
+Sessão 1; os seus quatro relatórios são fontes de apoio dos 16 prompts.

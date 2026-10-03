@@ -44,7 +44,7 @@ abandono judicial de Deus.
 
 A proposta tem erros de digitação ("acdemica", "verdadde") e uma tabela de
 *Público, formato e duração* com apenas a linha do público. **Formato e duração
-ficam em aberto** (ver §8, decisões pendentes). Nada disso altera o conteúdo.
+ficaram definidos em 03/10/2026** (ver §8): 6 encontros de 90 min. Nada disso altera o conteúdo.
 
 ---
 
@@ -210,19 +210,22 @@ individual após o encontro).
 
 ---
 
-## 8. O que falta decidir (do usuário)
+## 8. Decisões (tomadas pelo usuário em 03/10/2026)
 
-1. **Formato e duração da série** — a tabela da proposta só traz o público.
-   Sugestão: 6 encontros de 90 min; decidir.
-2. **Os tópicos 6 e 7** — confirmar o acréscimo (§1.2).
-3. **Conta do notebook** — `default` (que tem cota de áudio compartilhada com o
-   projeto João) ou Pro (login bloqueado hoje, ver `../ESTADO_ATUAL_2026-10-03.md` §6).
-4. **Camada de anéis** — rodar o eixo focal em 4 anéis já na primeira volta, ou
-   só depois do relatório? (Recomendo **depois**: o relatório é a semente.)
-5. **Relação com a U02 do JDD** — este projeto **substitui** a U02, **alimenta**
-   a U02, ou corre em paralelo? (Recomendo: **alimenta** — o relatório IND entra
-   como fonte de apoio no notebook da U02.)
+| # | Questão | Decisão |
+|---|---|---|
+| 1 | Formato e duração da série | **6 encontros de 90 min** (recomendação adotada) |
+| 2 | Tópicos 6 (3.1-20) e 7 (3.21-26) | ✅ **confirmados** |
+| 3 | Conta do notebook | **Pro — `aleinstitutoreformado@gmail.com`** (ver `CLAUDE.md` §5) |
+| 4 | Camada de anéis | **antes do relatório** (decisão do usuário, contrária à recomendação inicial). Semente do anel 1: estudo Rm 1.28-32 do piloto + Cap1 auditado; os 4 relatórios de anel alimentam os 16 prompts. Ver `ESTRATEGIA_ANEIS_INDESCULPAVEIS.md` §1 |
+| 5 | Relação com a U02 do JDD | **corre em paralelo** (decisão do usuário, contrária à recomendação inicial de "alimentar"): os dois projetos são independentes; nenhum relatório circula entre eles |
+
+⚠️ **Consequência da decisão 5:** sem troca de relatórios, as duas pesquisas
+sobre Rm 1.18–3.20 podem chegar a rótulos diferentes. Isso **não** é resolvido
+aqui: divergência notada é registrada no mapa de consistência IND como
+observação. Obras do acervo JDD continuam podendo entrar por **cópia** para a
+`biblioteca\` do IND (FRONTEIRA IND), que é cópia de fonte, não de conclusão.
 
 ---
 
-*Documento de decisão. Depois das respostas do §8, segue-se `FASE_0_CHECKLIST.md`.*
+*Documento de decisão. Decisões tomadas; segue-se `FASE_0_CHECKLIST.md`.*
