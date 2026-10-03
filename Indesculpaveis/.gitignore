@@ -1,0 +1,5 @@
+# Obras com direitos autorais e saídas de conversão ficam só na máquina local
+biblioteca/
+_processados_md/
+_fora_do_notebook/
+projeto.config.txt
