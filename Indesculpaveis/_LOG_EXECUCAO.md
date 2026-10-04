@@ -55,8 +55,34 @@ nos documentos irmãos** (`alessandroinstitutoreformadosp@`, `alesouza@`,
 `alessandronuvemti@`). Registrada como dada; conferir por `auth check --test`
 que o perfil abre exatamente essa conta antes de criar o primeiro caderno.
 
+## 3. Fase 0 iniciada (04/10/2026)
+
+PR #1 incorporado à `main`; branch reiniciada a partir dela.
+
+**O que se fez daqui (sessão em nuvem, sem a máquina Windows, sem a CLI do
+NotebookLM, sem a biblioteca):**
+
+| Etapa | Feito | Não feito, e por quê |
+|---|---|---|
+| 1 — perfil Pro | `_scripts/etapa1_perfil_pro.ps1` (ASCII, simula por padrão, não troca o perfil global, confere a conta na saída do `auth check`) — **não testado** | o login exige o navegador e a CLI da sua máquina |
+| 2 — biblioteca | nota de FRONTEIRA JDD no checklist | a cópia do acervo JDD não pode ser feita por script do IND ("não entra") |
+| 3, 6 — conversão, notebook | — | dependem da máquina local |
+| 4 — sentinelas | — | **nenhuma migrada**: a verificação exige consulta + disco (NA28, Metzger, obras). Migrar sem isso seria a luz verde falsa |
+| **5 — relatório-semente** | ✅ `semente/AUDITORIA_CAP1_S13-15.md` + `semente/Relatorio_Cap1_S13-15_auditado_IND.md` | itens A1–A11 aguardam a biblioteca |
+
+**Achados da Etapa 5, além de S11 e S12:** 9 erros conferíveis no texto do
+Cap1 — Gn 1.27 dado como "segundo dia"; 3.23 citado como "3.9–20"; κακοηθείας
+posto no início do Bloco III; τὰ αὐτά atribuído a 1.32; o contexto de
+Sl 106.41 trocado (bezerro de ouro é 106.19-20); transliteração inventada de
+Sl 81.13; Oolá por Oolibá em Ez 23.28; três descrições incompatíveis da
+"progressão"; φθόνος confundido com ἐπιχαιρεκακία. E um parágrafo sem fonte
+sobre "as sinagogas", removido por tom e por risco de anti-judaísmo (L6).
+
+**Lição para o molde:** o relatório do Cap1 passou pelos seus próprios
+checkpoints "✓" com esses erros. Checkpoint de autoavaliação não é auditoria.
+
 ## Pendências abertas
 
 - Ambiente: perfil da CLI para a conta Pro; login da Pro (bloqueio do
   `rookie_cookies.pyd`); `patch_rpc_limit.ps1` para a CLI 0.8.4.
-- Fase 0 inteira.
+- Fase 0: Etapas 1–4 e 6–8 (máquina local); A1–A11 da Etapa 5.

@@ -23,6 +23,7 @@ notebooklm -p <PERFIL_PRO> auth check --test
 bloqueado (`rookie_cookies.pyd`); `patch_rpc_limit.ps1` aponta o módulo antigo
 da CLI 0.7.3. Resolver **antes** de qualquer triagem com caderno grande.
 
+**Script:** `_scripts\etapa1_perfil_pro.ps1` (rodar primeiro sem `-Executar`).
 **Conta:** `aleinstitutoreformado@gmail.com` (Pro). Login num perfil **próprio**
 (não sobrescrever `default`, `nuvemti` nem os perfis do JDD); gravar o nome em
 `perfil.config.txt`; substituir `<PERFIL_PRO>` nos documentos.
@@ -36,6 +37,11 @@ só o "ok").
 Copiar para `biblioteca\` as obras da `CURADORIA_FONTES_INDESCULPAVEIS.md`
 marcadas "JDD" ou "Cap1". **A cópia é o ato de entrada.** Nada é lido na pasta
 de outro projeto.
+
+⚠️ **FRONTEIRA JDD ("não entra"):** nenhum script ou sessão do IND pode ler a
+pasta do JDD. A cópia das obras que estão no acervo JDD é feita **por você, à
+mão**, ou **por uma sessão aberta no JDD** — nunca por script do IND. Por isso
+esta etapa não tem script.
 
 Para cada obra "ausente": **dupla checagem** (inventário + conteúdo) antes de
 pô-la na lista de compra. Lembrar: Thorsteinsson se procura **pelo título**.
@@ -74,6 +80,11 @@ Subir a versão auditada **com nome distinto** (`..._auditado_IND.md`) — o
 original pertence ao projeto Cap1.
 
 **Critério:** registro da auditoria em `_LOG_EXECUCAO.md`.
+
+✅ **Leitura e correções feitas em 04/10/2026** — `semente/AUDITORIA_CAP1_S13-15.md`
+e `semente/Relatorio_Cap1_S13-15_auditado_IND.md` (9 erros corrigidos, 6
+rótulos rebaixados, 4 objeções devolvidas aos prompts, 1 parágrafo removido por
+tom). **Pendente:** conferir em disco os itens A1–A11, depois da Etapa 2.
 
 ## Etapa 6 — Montar o notebook
 
