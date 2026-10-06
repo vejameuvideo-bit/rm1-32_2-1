@@ -81,8 +81,29 @@ sobre "as sinagogas", removido por tom e por risco de anti-judaísmo (L6).
 **Lição para o molde:** o relatório do Cap1 passou pelos seus próprios
 checkpoints "✓" com esses erros. Checkpoint de autoavaliação não é auditoria.
 
+## 4. Auditoria das seções 10–12 do Cap1 (06/10/2026)
+
+Executada por leitura integral (Rm 1.18–23). **17 erros** (E10–E26), 15 rótulos
+rebaixados, 54 marcas no texto, 22 itens a conferir (A12–A33). Detalhe em
+`semente/AUDITORIA_CAP1_S10-12.md`.
+
+**Os três achados mais graves:** (1) Tomás de Aquino caracterizado como quem
+chega à **essência divina** pela razão natural e a uma teologia natural
+"salvífica" — o contrário do que ele ensina (E16–E17); (2) a "imagem verdadeira"
+a ser adorada seria "o homem" (E24); (3) Jr 2.5 e 2Rs 17.15 dados como
+idolatria "dos gentios", quando falam de **Israel** (E21) — o que tensiona a
+leitura de 1.18-32 como "primariamente gentia".
+
+**Nota de método:** os erros foram identificados de memória do grego e da
+literatura, **não** por consulta ao NA28/Rahlfs/obras. Reconferir cada um na
+Etapa 4. Nenhuma sentinela migrou.
+
+**Padrão:** erro de **citação de passagem** (versículo, forma verbal, texto de
+salmo) com a mesma segurança dos acertos. Seções 1–9 e 16 do Cap1 continuam não
+auditadas e **não devem entrar** no notebook.
+
 ## Pendências abertas
 
 - Ambiente: perfil da CLI para a conta Pro; login da Pro (bloqueio do
   `rookie_cookies.pyd`); `patch_rpc_limit.ps1` para a CLI 0.8.4.
-- Fase 0: Etapas 1–4 e 6–8 (máquina local); A1–A11 da Etapa 5.
+- Fase 0: Etapas 1–4 e 6–8 (máquina local); A1–A33 da Etapa 5; seções 1–9 e 16 do Cap1 sem auditoria.

@@ -53,7 +53,7 @@
 | Sentinelas | 🟡 **14 rascunhos, tabela vazia — trava ativa** |
 | Lacunas de refutação | 🟡 8 linhas, **todas ⬜ não conferidas** |
 | Curadoria | 🟡 preenchida pelos documentos; **nenhuma obra aberta** |
-| Fase 0 · Etapa 5 (auditoria do relatório-semente) | ✅ leitura e correções (04/10); ⬜ itens A1–A11 a conferir em disco |
+| Fase 0 · Etapa 5 (auditoria do relatório-semente) | ✅ prompts 13–15 (04/10) e 10–12 (06/10): leitura e correções; ⬜ itens A1–A33 a conferir em disco; ⬜ seções 1–9 e 16 não auditadas |
 | Fase 0 · Etapa 1 (perfil Pro) | 🟡 script pronto (`_scripts/etapa1_perfil_pro.ps1`); **rodar no Windows** |
 | Pasta local, biblioteca, notebook | ⬜ |
 | Saídas 00–16 | ⬜ |

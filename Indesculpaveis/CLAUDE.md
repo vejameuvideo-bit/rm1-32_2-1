@@ -116,7 +116,7 @@ Indesculpaveis/
 ├── FASE_0_CHECKLIST.md                ← do zero ao primeiro prompt
 ├── _LOG_EXECUCAO.md                   ← histórico técnico
 │
-├── semente/                           ← relatório-semente do Cap1 auditado (Etapa 5)
+├── semente/                           ← Cap1 auditado: prompts 10–12 e 13–15 (Etapa 5)
 ├── _scripts/                          ← etapa1_perfil_pro.ps1 (ASCII)
 ├── _artifacts/
 │   ├── sentinelas_IND.md              ← 🚩 armadilhas factuais — RASCUNHO

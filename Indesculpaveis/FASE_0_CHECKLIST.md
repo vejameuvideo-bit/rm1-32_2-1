@@ -86,6 +86,12 @@ e `semente/Relatorio_Cap1_S13-15_auditado_IND.md` (9 erros corrigidos, 6
 rótulos rebaixados, 4 objeções devolvidas aos prompts, 1 parágrafo removido por
 tom). **Pendente:** conferir em disco os itens A1–A11, depois da Etapa 2.
 
+✅ **Seções 10–12 (Rm 1.18–23) auditadas em 06/10/2026** —
+`semente/AUDITORIA_CAP1_S10-12.md` e `semente/Relatorio_Cap1_S10-12_auditado_IND.md`
+(17 erros corrigidos, 15 rótulos rebaixados, 54 marcas; **22 itens a conferir,
+A12–A33**). Seções 1–9 e a síntese (16) do relatório do Cap1 continuam **não
+auditadas** e **não devem entrar** no notebook.
+
 ## Etapa 6 — Montar o notebook
 
 ```powershell

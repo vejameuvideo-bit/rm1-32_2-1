@@ -83,3 +83,18 @@ não-refutado.
 1. Alguma sentinela foi tocada? A formulação usada é a correta?
 2. Algum rótulo foi inflado?
 3. Toda atribuição de posição tem obra no corpus? (S9, S10, S13 são da classe mais fácil de errar.)
+
+---
+
+## Evidências colhidas nas auditorias do Cap1 (04 e 06/10/2026) — **não migram sentinela**
+
+Evidência de que o erro previsto **ocorre de fato** no relatório-semente. Não é
+verificação: a migração exige consulta ao notebook **e** conferência em disco.
+
+| # | Evidência |
+|---|---|
+| S3 | o relatório troca ἀλλάσσω (1.23) por μεταλλάσσω (1.25-26) — `AUDITORIA_CAP1_S10-12.md` E23 |
+| S9 | o relatório trata Dodd e nunca menciona Hanson — idem §4 |
+| S10 | "queda adâmica" apresentada como INFERÊNCIA FORTE sem atribuir a Hooker — idem §2 |
+| S11 | identidade judaica do interlocutor pressuposta em 3 pontos de 10–12 e em 15 — as duas auditorias |
+| S12 | "equidade acadêmica" e Brooten como autoridade — `AUDITORIA_CAP1_S13-15.md` |
