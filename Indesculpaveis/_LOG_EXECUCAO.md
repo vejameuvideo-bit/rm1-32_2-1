@@ -102,6 +102,27 @@ Etapa 4. Nenhuma sentinela migrou.
 salmo) com a mesma segurança dos acertos. Seções 1–9 e 16 do Cap1 continuam não
 auditadas e **não devem entrar** no notebook.
 
+## 5. Prompts dos quatro anéis (06/10/2026)
+
+`aneis/PROMPTS_COMUM.md` + `anel1..4_prompts.md`: 20 consultas de Deep Research
+(sempre com o cabeçalho "quais objeções progressistas este texto atrai?" e busca
+dos dois lados), a R4 trocada em cada anel, as três consultas (C1 exegética ·
+C2 verificação · C3 refutação dirigida) e os 11 artefatos de mídia por anel.
+
+**Decisões de desenho:**
+- Os prompts **incorporam as correções da auditoria** do Cap1 (p. ex., o anel 3
+  manda tratar Sl 106.20, Jr 2.5/2.11, 2Rs 17.15 e Dt 4.15-19 como textos sobre
+  **Israel**; o anel 4 avisa que Tomás não afirma que a razão alcance a
+  essência divina, e que Barth é aliado que diverge).
+- **Escopo da DR:** nenhuma consulta trata de 1.26-27 (pertence ao Prompt 8 IND e
+  ao anel 3 do piloto 1.28-32): evita poluir os cadernos.
+- Cada anel traz **sentinelas em jogo** e **o que fica de fora**.
+
+**Limites declarados:** a trava comum é a do IND (a `_trava_comum` original não
+está neste repositório); a sintaxe da CLI é esboço; vários nomes de obra
+estão marcados "verificar" (Das, Bassler, Allison, Lloyd-Jones, Tilling…) —
+vieram de memória e a Deep Research os confirma ou os descarta.
+
 ## Pendências abertas
 
 - Ambiente: perfil da CLI para a conta Pro; login da Pro (bloqueio do

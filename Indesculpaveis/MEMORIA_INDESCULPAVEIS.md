@@ -50,6 +50,7 @@
 | Prompts (`prompts_indesculpaveis.md`) | ✅ 16 prompts, cláusulas fixas |
 | Sequência (`Sequencia_Indesculpaveis.md`) | ✅ 8 sessões |
 | Estratégia de anéis do eixo focal | ✅ documentada; **execução ANTES dos 16 prompts** |
+| Prompts dos 4 anéis (`aneis/`) | ✅ 20 consultas de Deep Research, 4 × (R4 + C1–C3), 44 itens de mídia — **nada executado**; sintaxe da CLI a conferir |
 | Sentinelas | 🟡 **14 rascunhos, tabela vazia — trava ativa** |
 | Lacunas de refutação | 🟡 8 linhas, **todas ⬜ não conferidas** |
 | Curadoria | 🟡 preenchida pelos documentos; **nenhuma obra aberta** |
