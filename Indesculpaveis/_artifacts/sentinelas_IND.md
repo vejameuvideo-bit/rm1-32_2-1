@@ -24,6 +24,11 @@ não-refutado.
 
 ---
 
+> 📋 **Como verificar:** `ROTEIRO_VERIFICACAO_SENTINELAS.md` — para cada
+> rascunho, o que checar por dois métodos independentes, o que fazer se o
+> rascunho falhar e o registro de migração. **S8 (a "glosa" de Bultmann) é a de
+> maior risco:** a atribuição veio de memória e pode estar errada.
+
 ## Tabela verificada (contada)
 
 | # | Sentinela | O que NÃO fazer | Formulação correta | Verificado em / por |

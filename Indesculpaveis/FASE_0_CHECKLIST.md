@@ -64,6 +64,8 @@ nenhum acima do teto.
 
 ## Etapa 4 — 🚩 SENTINELAS (a etapa que não se pula)
 
+Roteiro pronto: `_artifacts/ROTEIRO_VERIFICACAO_SENTINELAS.md` (ordem em 5 lotes,
+métodos, pré-requisitos de biblioteca, registro de migração).
 Verificar os rascunhos S1–S14 de `_artifacts/sentinelas_IND.md`, um por vez:
 consulta de verificação **e** conferência em disco (NA28, Metzger, a obra).
 Migrar para a tabela contada só o que passar.

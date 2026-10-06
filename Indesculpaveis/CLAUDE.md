@@ -120,6 +120,7 @@ Indesculpaveis/
 ├── _scripts/                          ← etapa1_perfil_pro.ps1 (ASCII)
 ├── _artifacts/
 │   ├── sentinelas_IND.md              ← 🚩 armadilhas factuais — RASCUNHO
+│   ├── ROTEIRO_VERIFICACAO_SENTINELAS.md ← como verificar S1–S14 (2 métodos)
 │   ├── escala_certeza.md              ← os 6 níveis
 │   └── persona_notebooklm.txt
 │

@@ -123,6 +123,23 @@ está neste repositório); a sintaxe da CLI é esboço; vários nomes de obra
 estão marcados "verificar" (Das, Bassler, Allison, Lloyd-Jones, Tilling…) —
 vieram de memória e a Deep Research os confirma ou os descarta.
 
+## 6. Roteiro de verificação das sentinelas (06/10/2026)
+
+`_artifacts/ROTEIRO_VERIFICACAO_SENTINELAS.md`: para S1–S14, a afirmação, o
+risco, o método de conteúdo (consulta pronta), o método de fonte/disco, o
+critério de migração e **os arquivos a corrigir se o rascunho falhar**. Ordem
+em 5 lotes (A: só NA28 · B: léxico e LXX · C: leitura de comentários · D: Dodd,
+Hanson, Hooker · E: as duas sentinelas sobre o Cap1). Registro de migração
+incluído.
+
+**Achado ao escrevê-lo:** a atribuição de **S8** (Bultmann, 1947, 2.1 como
+glosa) vem de **memória** e **nunca foi vista em fonte**. Ela foi usada como
+fato em `prompts_indesculpaveis.md` (Prompts 2 e 11), em `anel1_prompts.md`
+(DR-1.1, C1, C3), nas duas auditorias e em `LACUNAS_REFUTACAO.md`. O roteiro
+lista todos para correção se a verificação a derrubar. Outras atribuições com
+interrogação no rascunho (S10: "Fitzmyer? Moo?"; S13: "Moo?") **não devem ser
+nomeadas** sem leitura.
+
 ## Pendências abertas
 
 - Ambiente: perfil da CLI para a conta Pro; login da Pro (bloqueio do

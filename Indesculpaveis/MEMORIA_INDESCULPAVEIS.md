@@ -51,7 +51,7 @@
 | Sequência (`Sequencia_Indesculpaveis.md`) | ✅ 8 sessões |
 | Estratégia de anéis do eixo focal | ✅ documentada; **execução ANTES dos 16 prompts** |
 | Prompts dos 4 anéis (`aneis/`) | ✅ 20 consultas de Deep Research, 4 × (R4 + C1–C3), 44 itens de mídia — **nada executado**; sintaxe da CLI a conferir |
-| Sentinelas | 🟡 **14 rascunhos, tabela vazia — trava ativa** |
+| Sentinelas | 🟡 **14 rascunhos, tabela vazia — trava ativa**; roteiro de verificação pronto (`_artifacts/ROTEIRO_VERIFICACAO_SENTINELAS.md`) |
 | Lacunas de refutação | 🟡 8 linhas, **todas ⬜ não conferidas** |
 | Curadoria | 🟡 preenchida pelos documentos; **nenhuma obra aberta** |
 | Fase 0 · Etapa 5 (auditoria do relatório-semente) | ✅ prompts 13–15 (04/10) e 10–12 (06/10): leitura e correções; ⬜ itens A1–A33 a conferir em disco; ⬜ seções 1–9 e 16 não auditadas |
@@ -101,7 +101,6 @@
    conta por `auth check --test`; resolver o patch RPC.
 2. Etapa 2 — copiar para `biblioteca\` as obras já presentes no JDD/Cap1;
    copiar `Relatorio_Cap2_Romanos.md` (hoje só no Drive) se for usado.
-3. Etapa 4 — verificar as sentinelas, começando pelas de custo zero:
-   S1, S2, S3 (NA28) e S9 (já lida no caderno παρέδωκεν).
+3. Etapa 4 — verificar as sentinelas pelo roteiro (`_artifacts/ROTEIRO_VERIFICACAO_SENTINELAS.md`), lote A primeiro (S1–S5, só NA28). **S8 antes de qualquer outra coisa que a cite:** a atribuição a Bultmann pode estar errada.
 4. ~~Etapa 5 — auditar o relatório-semente~~ ✅ 04/10; falta conferir A1–A11 em disco.
 5. Anéis 1→4 (ESTRATEGIA §6), depois os 16 prompts.
