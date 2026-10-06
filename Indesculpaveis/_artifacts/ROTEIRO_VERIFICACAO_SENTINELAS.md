@@ -142,7 +142,7 @@ entrada (FRONTEIRA). Sem eles, usar `grep -n` nos `.md` de `_processados_md\`.
 | **Método 1** | consulta: *"Quem propôs que Rm 2.1 (ou parte dele) é glosa? Cite o autor, a obra e a página no corpus. Se ninguém, diga NÃO ENCONTRADO."* |
 | **Método 2** | **ler** Bultmann, "Glossen im Römerbrief", *TLZ* 72 (1947), col. 197–202 `[a conferir]`; e a discussão em Cranfield/Käsemann/Moo *ad* 2.1 |
 | **Migrar quando** | o artigo de Bultmann **ou** dois comentários **confirmam** a atribuição — senão **reescrever a sentinela** (ex.: "alguns propuseram glosa em 2.x") |
-| **Se falhar, corrigir** | `prompts_indesculpaveis.md` (Prompt 2 item 7; Prompt 11 item 1d); `anel1_prompts.md` (DR-1.1, C1, C3); `AUDITORIA_CAP1_S13-15.md` e `S10-12.md`; `LACUNAS_REFUTACAO.md` |
+| **Se falhar, corrigir** | `prompts_indesculpaveis.md` (Prompt 2 item 7; Prompt 11 item 1d); `anel1_prompts.md` (DR-1.1); `ESCOPO_INDESCULPAVEIS.md`; `ESTRATEGIA_ANEIS_INDESCULPAVEIS.md`; `sentinelas_IND.md` (S8). *(Conferido por `grep -i glosa` em 06/10/2026.)* |
 
 ## S9 — Dodd e Hanson
 

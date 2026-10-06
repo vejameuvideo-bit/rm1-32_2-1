@@ -135,8 +135,9 @@ incluído.
 **Achado ao escrevê-lo:** a atribuição de **S8** (Bultmann, 1947, 2.1 como
 glosa) vem de **memória** e **nunca foi vista em fonte**. Ela foi usada como
 fato em `prompts_indesculpaveis.md` (Prompts 2 e 11), em `anel1_prompts.md`
-(DR-1.1, C1, C3), nas duas auditorias e em `LACUNAS_REFUTACAO.md`. O roteiro
-lista todos para correção se a verificação a derrubar. Outras atribuições com
+(DR-1.1), em `ESCOPO_INDESCULPAVEIS.md`, em `ESTRATEGIA_ANEIS_INDESCULPAVEIS.md`
+e em `sentinelas_IND.md` (conferido por `grep -i glosa`). O roteiro lista todos
+para correção se a verificação a derrubar. Outras atribuições com
 interrogação no rascunho (S10: "Fitzmyer? Moo?"; S13: "Moo?") **não devem ser
 nomeadas** sem leitura.
 
