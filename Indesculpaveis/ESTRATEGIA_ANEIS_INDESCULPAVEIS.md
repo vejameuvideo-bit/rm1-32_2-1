@@ -43,7 +43,7 @@ Herança por síntese, nunca por fonte bruta.
 | Anel | Escopo | Pergunta | Fontes típicas | Semente |
 |---|---|---|---|---|
 | **1 — Núcleo** | 1.32–2.2 (o versículo e a virada) | *O que o texto diz e como a virada está construída?* | NA28, BDAG, Metzger, comentários técnicos *ad loc.*, Bultmann (glosa), Thorsteinsson | estudo Rm 1.28-32 do piloto **+** `Relatorio_Cap1_Romanos.md` §§13–15 **auditado** |
-| **2 — Contexto imediato** | 1.18–3.20 | *Como a virada governa a perícope?* | comentários da seção; Campbell e as respostas; Stowers (diatribe) | relatório completo do anel 1 |
+| **2 — Contexto imediato** | 1.18–3.20 | *Como a virada governa a perícope?* | comentários da seção; Campbell e as respostas; Stowers (diatribe) | relatório completo do anel 1 **+** `Relatorio_Cap1_Romanos.md` §§10–12 **auditado** (`semente/`) |
 | **3 — Corpus e intertexto** | Sabedoria 11–15; Mt 7.1-5; Rm 14.3-13 (não julgar o irmão); Tg 4.11-12; Sl 106; Is 52.5 | *Onde mais a Escritura e o judaísmo condenam quem julga?* | LXX, Linebaugh, Watson, literatura do Segundo Templo | relatório do anel 2 |
 | **4 — Global** | moralismo e indiferença na tradição e na apologética | *Como a igreja leu e disputa 2.1?* | Crisóstomo, Agostinho, Calvino, Edwards, Bengel, Wesley; adversários em obra primária | relatório do anel 3 |
 
