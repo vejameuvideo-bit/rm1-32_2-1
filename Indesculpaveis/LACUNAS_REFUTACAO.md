@@ -37,6 +37,7 @@ ser **copiado** para `biblioteca\` deste projeto (FRONTEIRA IND).*
 | L6 | **Anti-judaísmo** em 2.17-29; *Sonderweg* (Gaston, Gager) | 2.17-29; 3.1-9 | ❓ não verificado | ❓ | ⬜ |
 | L7 | **Inclusivismo** a partir de 2.14-15 (salvação pela lei natural, sem o evangelho) | 2.14-16 | ❓ não verificado — **se ausente, declarar a lacuna e não abrir** | 🟡 a resposta está no próprio argumento (3.9-20; 3.21-26) | ⬜ |
 | L8 | **"Obras da lei" como marcadores identitários** (Dunn, a partir de 4QMMT) | 3.20 | 🟡 Dunn (WBC 38A) no acervo JDD; **4QMMT em edição primária ausente** | 🟡 Carson/O'Brien/Seifrid; Gathercole | ⬜ |
+| L9 | **Interpolação não paulina de 1.18–2.29** (W. O. Walker, "Romans 1.18–2.29: A Non-Pauline Interpolation?", *NTS* 45, 1999 — título e autoria a confirmar na fonte; argumenta, entre outros pontos, que o Romanos de Marcião talvez não trouxesse 1.19–2.1) · e, em escala menor, **2.1 como glosa** (Bultmann, *TLZ* 72, 1947 — S8) | **toda a perícope** | ❓ Walker e Bultmann **não verificados em fonte**; só indício por resumos de busca (07/10) | ❓ **resposta dedicada a buscar** (Prompt 1 e anel 2, DR-2.1); a de Bultmann já está na rejeição do consenso (a conferir) | ⬜ |
 
 **Legenda:** ✅ presente · 🟡 parcial/indireta · ❓ não verificado · ❌ ausente
 

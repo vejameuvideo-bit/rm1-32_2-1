@@ -101,6 +101,6 @@
    conta por `auth check --test`; resolver o patch RPC.
 2. Etapa 2 — copiar para `biblioteca\` as obras já presentes no JDD/Cap1;
    copiar `Relatorio_Cap2_Romanos.md` (hoje só no Drive) se for usado.
-3. Etapa 4 — verificar as sentinelas pelo roteiro (`_artifacts/ROTEIRO_VERIFICACAO_SENTINELAS.md`), lote A primeiro (S1–S5, só NA28). **S8 antes de qualquer outra coisa que a cite:** a atribuição a Bultmann pode estar errada.
+3. Etapa 4 — **S8 tentada em 07/10 sem acesso a fonte: continua NÃO verificada** (ver `_LOG_EXECUCAO.md` §7; indício a favor da atribuição, falta ler Bultmann/Käsemann/Fitzmyer; nova objeção **L9**, Walker 1999). Verificar as sentinelas pelo roteiro (`_artifacts/ROTEIRO_VERIFICACAO_SENTINELAS.md`), lote A primeiro (S1–S5, só NA28). **S8 antes de qualquer outra coisa que a cite:** a atribuição a Bultmann pode estar errada.
 4. ~~Etapa 5 — auditar o relatório-semente~~ ✅ 04/10; falta conferir A1–A11 em disco.
 5. Anéis 1→4 (ESTRATEGIA §6), depois os 16 prompts.

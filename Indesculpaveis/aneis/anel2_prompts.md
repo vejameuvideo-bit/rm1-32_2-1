@@ -22,7 +22,10 @@ Pesquise a tese de Douglas Campbell (The Deliverance of God, 2009, esp. Parte 3,
 cap. 14) de que Rm 1.18-3.20 contém o discurso de um "Mestre" rival que Paulo cita
 para refutar (προσωποποιία), e as respostas conservadoras: D. Moo (review article,
 JETS 53/1, 2010), S. Gathercole, G. Macaskill, e o volume de respostas (N. Tilling,
-org., Beyond Old and New Perspectives on Paul, 2014 — verificar). Objeção a
+org., Beyond Old and New Perspectives on Paul, 2014 — verificar). Incluir a objeção de
+MAIOR ALCANCE: a tese de que toda a seção 1.18-2.29 é interpolação não paulina
+(W. O. Walker, NTS 45, 1999 — confirmar título e autoria) e a resposta, e o que se
+sabe do texto de Romans em Marcião. Objeção a
 buscar em FONTE PRIMÁRIA: a obra de Campbell inteira, não resumos. Pressuposto
 a identificar: a "teoria justificacionista" que Campbell atribui à leitura tradicional.
 ⚠️ Não imputar vício de método a Campbell sem a passagem inteira (Regra 11-C).
