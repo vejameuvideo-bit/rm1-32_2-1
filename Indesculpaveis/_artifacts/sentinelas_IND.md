@@ -99,6 +99,7 @@ verificação: a migração exige consulta ao notebook **e** conferência em dis
 | # | Evidência |
 |---|---|
 | S3 | o relatório troca ἀλλάσσω (1.23) por μεταλλάσσω (1.25-26) — `AUDITORIA_CAP1_S10-12.md` E23 |
+| S8 | **indício web (07/10), não verificação:** resumos de busca (fontes não abertas: bloqueio de rede) apontam *TLZ* 72 (1947), col. 197–202, com 2.1 entre as "glosas" (notas marginais) de Bultmann e 2.16/6.17b como interpolações. Falta ler o artigo. Formular como "glosa (nota marginal)", não "interpolação" |
 | S9 | o relatório trata Dodd e nunca menciona Hanson — idem §4 |
 | S10 | "queda adâmica" apresentada como INFERÊNCIA FORTE sem atribuir a Hooker — idem §2 |
 | S11 | identidade judaica do interlocutor pressuposta em 3 pontos de 10–12 e em 15 — as duas auditorias |

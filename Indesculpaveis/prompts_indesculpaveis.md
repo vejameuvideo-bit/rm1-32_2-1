@@ -45,6 +45,7 @@ CLÁUSULAS FIXAS
 4. **Gênero:** a diatribe (Bultmann, Stowers) e a apóstrofe; o padrão da polêmica judaica contra a idolatria (Sabedoria 13–15); o "processo" (rîb) do AT. Qual moldura explica melhor a sequência acusação → defesa negada → veredito (3.19)?
 5. **A palavra-chave:** ἀναπολόγητος só em 1.20 e 2.1 no NT `[a conferir]`. Como as duas ocorrências articulam a seção — o gentio sem desculpa e quem julga sem desculpa — e como 3.19 (ἵνα πᾶν στόμα φραγῇ) as fecha?
 6. **O eixo E (a voz):** apresente a tese de Douglas Campbell (*The Deliverance of God*) de que 1.18-32 é discurso de um "Mestre" que Paulo cita para refutar (prosopopeia). Aplique a cláusula 4 por inteiro: a melhor versão da tese, o pressuposto (a teoria "justificacionista" que Campbell atribui à leitura tradicional), e a resposta a partir do texto (as pontes verbais 1.32 → 2.1-3; a ausência de marcadores de mudança de voz em 1.18).
+7. **A objeção de maior alcance — interpolação:** apresente a tese de W. O. Walker ("Romans 1.18–2.29: A Non-Pauline Interpolation?", *NTS* 45, 1999 — `[a confirmar título e autoria]`) de que toda a seção 1.18–2.29 é interpolação, e a proposta de Bultmann (2.1 como glosa — S8). Cláusula 4 por inteiro, **só** se as obras estiverem no corpus; senão **LACUNA**. Pontos a examinar: a evidência manuscrita (nenhuma, no NA28?) e a de Marcião (o que se sabe e o que se infere); o pressuposto (que o conteúdo de Rm 2 seja "não paulino"); as pontes verbais 1.32 → 2.1-3; Rm 2 em 3.9 ("já acusamos").
 
 ---
 

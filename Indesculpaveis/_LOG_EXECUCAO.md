@@ -141,6 +141,30 @@ para correção se a verificação a derrubar. Outras atribuições com
 interrogação no rascunho (S10: "Fitzmyer? Moo?"; S13: "Moo?") **não devem ser
 nomeadas** sem leitura.
 
+## 7. Tentativa de verificar a S8 (07/10/2026)
+
+Pedido do usuário: verificar a S8 primeiro. **Resultado: não verificada; não migrada.**
+
+- **O que impediu:** nenhuma fonte primária acessível. Cambridge, biblia.com,
+  dokumen.pub, vridar.org, earlywritings.com e peterkirby.com estão bloqueados no
+  ambiente; sobraram resumos de busca (que são gerados a partir de páginas que não
+  pude abrir).
+- **O que os resumos indicam:** *TLZ* 72 (1947), col. 197–202; 2.1 entre as
+  "glosas" (notas marginais) de Bultmann, com 7.25b, 8.1, 10.17, 13.5; 2.16 e
+  6.17b como interpolações. **Isto sustenta a atribuição da S8 mais do que a
+  contradiz, mas não a verifica.**
+- **Matiz que muda a formulação:** em Bultmann "glosa" (nota marginal) ≠
+  "interpolação". A sentinela deve falar em "glosa", e a lista de versículos é
+  mais ampla do que "2.1".
+- **Achado novo:** a busca trouxe **W. O. Walker, "Romans 1.18–2.29: A Non-Pauline
+  Interpolation?", *NTS* 45 (1999)** — uma objeção de **muito maior alcance** que a
+  de Bultmann (toda a perícope, com argumento de Marcião). Não estava na pauta.
+  Entrou como **L9** em `LACUNAS_REFUTACAO.md`, como item 7 do Prompt 1 e na
+  DR-2.1 do anel 2. **Título, autoria e conteúdo não verificados.**
+- **Para fechar:** ler o artigo de Bultmann, ou Käsemann/Fitzmyer/Jewett *ad* 2.1,
+  e conferir (a) 2.1 inteiro ou parte, (b) o argumento, (c) "o consenso rejeita" —
+  esta parte **não tem nenhum apoio** até agora.
+
 ## Pendências abertas
 
 - Ambiente: perfil da CLI para a conta Pro; login da Pro (bloqueio do
