@@ -165,6 +165,35 @@ Pedido do usuário: verificar a S8 primeiro. **Resultado: não verificada; não 
   e conferir (a) 2.1 inteiro ou parte, (b) o argumento, (c) "o consenso rejeita" —
   esta parte **não tem nenhum apoio** até agora.
 
+## 8. Verificação das sentinelas S1–S5 (08/10/2026)
+
+Pedido: verificar S1–S5 pelo NA28. **O NA28 não esteve acessível** (texto protegido;
+academic-bible.com não abre daqui; sem biblioteca). Usei SBLGNT+MorphGNT, Nestle 1904 e
+Robinson–Pierpont, e o **aparato do SBLGNT, que registra a leitura do NA28** onde as
+edições divergem. Detalhe e vereditos: `_artifacts/VERIFICACAO_S1-S5.md`; script:
+`_scripts/verificar_s1_s5_edicoes_abertas.py`.
+
+| # | Veredito |
+|---|---|
+| S1 | ❓ não decidida (o texto grego não decide; indício de segunda mão) |
+| S2 | ✅ só Rm 1.20 e 2.1, nas três edições |
+| S3 | ✅ παρέδωκεν 1.24/26/28; ἤλλαξαν 1.23; μετήλλαξαν 1.25/26 |
+| S4 | 🟡 NA28 não lê πορνείᾳ nem ἀσπόνδους; "TR", "secundárias" e testemunhas abertas |
+| S5 | 🟡 3 grupos sintáticos ✔; **contagem corrigida: 21 crítico / 23 bizantino (não "22")** |
+
+**Nenhuma migrada:** falta o método de conteúdo (notebook) e a edição pedida (NA28);
+aceitar as substitutas é decisão do usuário.
+
+**Erro meu corrigido durante a verificação:** a primeira versão da busca ignorou
+acentuação e normalização Unicode e deu resultados incompletos (ἀναπολογήτους de 1.20
+não casava; os lemas do Nestle 1904 vêm em outra forma Unicode). Refeita antes de qualquer
+conclusão.
+
+**Efeito nos outros arquivos:** corrigidos o rascunho S5, o roteiro, o Prompt 9 e a DR-1.3
+(contagem); marcados no Prompt 2 os pontos **sem variação entre edições** (1.32, 2.2, 3.9), que o
+projeto supunha existir. **Correção ao roteiro:** os limites do P46 ("8.15–15.9; 16.25-27") eram
+de memória; o indício aponta 15.11 e não confirma 16.25-27.
+
 ## Pendências abertas
 
 - Ambiente: perfil da CLI para a conta Pro; login da Pro (bloqueio do

@@ -52,7 +52,7 @@ não-refutado.
 
 | # | Sentinela | O que NÃO fazer | Formulação provável | Conferir em |
 |---|---|---|---|---|
-| S5 | **os "4 blocos" do catálogo** | apresentar a divisão em quatro blocos como dado do texto, ou fixar "23 vícios" | a sintaxe dá **três** grupos (4 dativos com πεπληρωμένους; 5 genitivos com μεστούς; 12 acusativos); o quarto bloco (os quatro α-privativos finais) é **análise** do intérprete, apoiada na assonância — INFERÊNCIA PLAUSÍVEL. Contagem: 21 no NA28, 22 com ἀσπόνδους | NA28; Cranfield, Moo *ad loc.* |
+| S5 | **os "4 blocos" do catálogo** | apresentar a divisão em quatro blocos como dado do texto, ou fixar um número de vícios sem dizer a edição | a sintaxe dá **três** grupos (4 dativos com πεπληρωμένους; 5 genitivos com μεστούς; 12 acusativos); o quarto bloco (os quatro α-privativos finais) é **análise** do intérprete, apoiada na assonância — INFERÊNCIA PLAUSÍVEL. Contagem: **21 no texto crítico, 23 no bizantino** (corrigido em 08/10: "22" não existe, pois quem traz ἀσπόνδους traz também πορνείᾳ); ἀπειθεῖς também é α-privativo: a sequência é de cinco, não de quatro | NA28; Cranfield, Moo *ad loc.* |
 | S6 | **θεοστυγεῖς** | traduzir "que odeiam a Deus" como fato, ou "odiados por Deus" como fato | o uso clássico tende ao **passivo**; o contexto (lista de agentes) favorece o **ativo** para muitos comentaristas — HIPÓTESE DEBATIDA | BDAG; Cranfield; Moo; Jewett |
 | S7 | **προσωπολημψία (2.11)** | dizer que a palavra vem da LXX | a LXX tem a locução **πρόσωπον λαμβάνειν**; o substantivo composto parece formação cristã, primeiro atestado no NT `[a conferir]` — DADO LEXICAL | BDAG; TDNT (Lohse) |
 | S8 | **Διό e a glosa** | apresentar 2.1 como glosa, ou ignorar a dificuldade do Διό | Bultmann propôs 2.1 como glosa (1947) **sem apoio manuscrito**; o consenso rejeita, e a dificuldade lógica do Διό é real e tem soluções internas `[a conferir: referência exata]` | Bultmann, *TLZ* 72 (1947); Cranfield; Moo |
@@ -99,6 +99,7 @@ verificação: a migração exige consulta ao notebook **e** conferência em dis
 | # | Evidência |
 |---|---|
 | S3 | o relatório troca ἀλλάσσω (1.23) por μεταλλάσσω (1.25-26) — `AUDITORIA_CAP1_S10-12.md` E23 |
+| S1–S5 | **verificadas em parte em 08/10 (edições abertas, não o NA28; sem notebook) — ver `VERIFICACAO_S1-S5.md`:** S2 e S3 confirmadas em SBLGNT, Nestle 1904 e RP; S4 confirmada para o NA28 (via aparato do SBLGNT), com "TR", "secundárias" e testemunhas abertas; S5 confirmada nos três grupos sintáticos, com a contagem corrigida (21/23); S1 sem fonte primária. **Nenhuma migrada** |
 | S8 | **indício web (07/10), não verificação:** resumos de busca (fontes não abertas: bloqueio de rede) apontam *TLZ* 72 (1947), col. 197–202, com 2.1 entre as "glosas" (notas marginais) de Bultmann e 2.16/6.17b como interpolações. Falta ler o artigo. Formular como "glosa (nota marginal)", não "interpolação" |
 | S9 | o relatório trata Dodd e nunca menciona Hanson — idem §4 |
 | S10 | "queda adâmica" apresentada como INFERÊNCIA FORTE sem atribuir a Hooker — idem §2 |
