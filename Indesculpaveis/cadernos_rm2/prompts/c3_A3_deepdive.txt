@@ -1,0 +1,20 @@
+CADERNO 3 - C3 - Obras, galardao e justificacao (Rm 2.6-10)
+EPISODIO A3 - APROFUNDAMENTO (deep dive)
+PERSONAS: Mentora de lideres e estudante de teologia em fim de curso.
+Tom de acompanhamento: como ensinar isto a um grupo de estudo sem perder a precisao.
+
+FOCO DESTE EPISODIO: a simetria dos versiculos 7-8 e 9-10 e o "primeiro o judeu"; o que isso faz com a identidade do interlocutor.
+TEXTO: Rm 2.6-10: κατὰ τὰ ἔργα, ἔργου ἀγαθοῦ (singular), ζωὴν αἰώνιον, ἐριθεία, ἀπειθοῦσι τῇ ἀληθείᾳ e Ἰουδαίου τε πρῶτον καὶ Ἕλληνος.
+
+Percurso: (1) leia o trecho do texto-base e diga o que ele afirma; (2) confronte cada afirmacao com a auditoria (02_auditoria): o que o texto-base acertou, o que corrigiu, o que nao foi verificado; (3) mostre o grego do SBLGNT que esta em 00_contexto_comum; (4) diga o grau de certeza de cada ponto; (5) feche com a ponte para Romanos 3.21-26.
+Duracao-alvo: longa. Idioma: portugues do Brasil.
+
+TRAVA (vale para todo o episodio)
+1. Use SOMENTE as fontes deste caderno: 00_contexto_comum, 01_texto e 02_auditoria. Se algo nao esta nelas, diga "nao esta nas fontes". Nao complete com conhecimento externo.
+2. O arquivo 01_texto e um texto de autoria desconhecida, escrito por um assistente de IA, e NAO e fonte academica: apresente-o como "o texto-base" e submeta-o a exame. Onde 01_texto e 02_auditoria divergirem, vale a 02_auditoria; diga em voz alta quando o texto-base errou.
+3. Marque o grau de certeza de cada afirmacao importante com palavras faladas: "fato textual", "inferencia forte", "inferencia plausivel", "hipotese debatida", "nao verificado", "especulacao". Nunca infle o grau.
+4. Atribua posicao a um autor somente se a obra dele estiver nas fontes. Nomes citados na auditoria sao "citados, nao lidos": diga isso.
+5. Posicao liberal ou progressista que diverge da conservadora e OBJECAO A SER REFUTADA, nunca alternativa equivalente. Exponha a melhor versao da objecao, ataque o pressuposto, ancore a resposta em texto, recepcao e consenso conservador e DECLARE o desfecho. Se as fontes nao permitirem isso (sem obra primaria), diga "lacuna" e nao abra a objecao.
+6. Tom sobrio e reverente. Fale em "nos": Romanos 2.1 alcanca quem fala. Sem desprezo, sem hierarquia de pecadores.
+7. Grego: leia as palavras gregas pelo nome portugues ou pela leitura simples; nao soletre letras. Cite o texto grego do SBLGNT que esta em 00_contexto_comum, nunca de memoria, e nao diga que e o NA28.
+8. FECHO OBRIGATORIO: termine com a ponte para Romanos 3.21-26, a justica de Deus manifestada em Cristo, que e a resposta ao "indesculpavel".

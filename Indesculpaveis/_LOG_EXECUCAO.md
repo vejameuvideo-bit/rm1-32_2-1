@@ -199,3 +199,12 @@ de memória; o indício aponta 15.11 e não confirma 16.25-27.
 - Ambiente: perfil da CLI para a conta Pro; login da Pro (bloqueio do
   `rookie_cookies.pyd`); `patch_rpc_limit.ps1` para a CLI 0.8.4.
 - Fase 0: Etapas 1–4 e 6–8 (máquina local); A1–A33 da Etapa 5; seções 1–9 e 16 do Cap1 sem auditoria.
+
+## 9. 09/10/2026 — kit dos 4 cadernos de Rm 2.1-11 (prioridade do usuário)
+
+- Pedido: 4 cadernos (1 por tópico), cada um com 3 áudios deep dive + 1 debate + 2 vídeos, personas variadas, a partir do texto de exegese de Rm 2.1-11 colado pelo usuário.
+- Entregue: `cadernos_rm2/` (fontes, auditoria, 24 prompts, manifest) e `_scripts/criar_cadernos_rm2.ps1` (ASCII; simulação por padrão; **não testado**). **Não gerado:** os cadernos, áudios e vídeos (sem CLI/login na nuvem).
+- O texto colado é resposta de IA (autoria desconhecida). Auditado contra SBLGNT/MorphGNT em disco; erros achados em `fontes/c*/02_auditoria.md`.
+- S7: lista de lemas do Rahlfs (eliranwong/LXX-Rahlfs-1935, HEAD a1b5ff1) não traz προσωπολημψία nem os cognatos no bloco «só LXX»; **só varredura de lista de palavras — 2ª checagem pendente**. Não migrada.
+- Não verificados (de memória): T. Levi 3.2; Aristóteles *Pol.* 1302b4; 2Br 14.12/24.1, 4Esd 7.77, Tb 4.9, Sr 29.11; Calvino/Murray/Schreiner em Rm 2.6-7; Bultmann/Walker.
+
