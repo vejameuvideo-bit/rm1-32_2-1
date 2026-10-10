@@ -51,7 +51,7 @@
 | Sequência (`Sequencia_Indesculpaveis.md`) | ✅ 8 sessões |
 | Estratégia de anéis do eixo focal | ✅ documentada; **execução ANTES dos 16 prompts** |
 | Prompts dos 4 anéis (`aneis/`) | ✅ 20 consultas de Deep Research, 4 × (R4 + C1–C3), 44 itens de mídia — **nada executado**; sintaxe da CLI a conferir |
-| Sentinelas | 🟡 **14 rascunhos, tabela vazia — trava ativa; S1–S5 verificadas em parte em 08/10 (`_artifacts/VERIFICACAO_S1-S5.md`), nenhuma migrada**; roteiro de verificação pronto (`_artifacts/ROTEIRO_VERIFICACAO_SENTINELAS.md`) |
+| Sentinelas | 🟡 **10/10: S2, S3, S4, S5 migradas (edições abertas, sem NA28); 10 rascunhos; trava ainda ativa.** Antes: **14 rascunhos, tabela vazia — trava ativa; S1–S5 verificadas em parte em 08/10 (`_artifacts/VERIFICACAO_S1-S5.md`), nenhuma migrada**; roteiro de verificação pronto (`_artifacts/ROTEIRO_VERIFICACAO_SENTINELAS.md`) |
 | Lacunas de refutação | 🟡 8 linhas, **todas ⬜ não conferidas** |
 | Curadoria | 🟡 preenchida pelos documentos; **nenhuma obra aberta** |
 | Fase 0 · Etapa 5 (auditoria do relatório-semente) | ✅ prompts 13–15 (04/10) e 10–12 (06/10): leitura e correções; ⬜ itens A1–A33 a conferir em disco; ⬜ seções 1–9 e 16 não auditadas |

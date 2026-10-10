@@ -208,3 +208,9 @@ de memória; o indício aponta 15.11 e não confirma 16.25-27.
 - S7: lista de lemas do Rahlfs (eliranwong/LXX-Rahlfs-1935, HEAD a1b5ff1) não traz προσωπολημψία nem os cognatos no bloco «só LXX»; **só varredura de lista de palavras — 2ª checagem pendente**. Não migrada.
 - Não verificados (de memória): T. Levi 3.2; Aristóteles *Pol.* 1302b4; 2Br 14.12/24.1, 4Esd 7.77, Tb 4.9, Sr 29.11; Calvino/Murray/Schreiner em Rm 2.6-7; Bultmann/Walker.
 
+## 10. 10/10/2026 — migração de S2, S3, S4 e S5 para a tabela verificada
+
+- Decisão do usuário («faça»): aceitar SBLGNT/MorphGNT, Nestle 1904 e RP, mais o aparato do SBLGNT, no lugar do NA28. Migradas **S2, S3, S4 e S5**; **S1 não** (sem fonte primária).
+- S4 e S5 migram **só com a formulação que a verificação sustenta** (sem «TR», sem «secundárias», sem testemunhas; S5 com 21/23). Ressalvas na coluna «Verificado em».
+- **Isto não destrava nada:** o anel 1 exige S1–S8 e S11. Tabela: 4; rascunhos: 10. Ainda falta o método de conteúdo (notebook) para todas.
+

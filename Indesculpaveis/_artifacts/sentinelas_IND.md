@@ -6,7 +6,8 @@
 
 | Data | Tabela verificada | Rascunhos |
 |---|---|---|
-| 03/10/2026 | **0 — VAZIO (trava ativa, intencional)** | 14 (S1–S14) |
+| 03/10/2026 | 0 — vazio (trava ativa) | 14 (S1–S14) |
+| 10/10/2026 | **4** (S2, S3, S4, S5 — por edições abertas, **sem NA28 e sem notebook**) | 10 (S1, S6–S14); a trava segue ativa: faltam S1–S8 e S11 para o anel 1 |
 
 🚩 **Enquanto a tabela verificada estiver vazia, nenhum prompt pode ser redigido
 em `saidas/`.**
@@ -33,7 +34,10 @@ não-refutado.
 
 | # | Sentinela | O que NÃO fazer | Formulação correta | Verificado em / por |
 |---|---|---|---|---|
-| | | | | |
+| S2 | **ἀναπολόγητος** | dizer que a palavra é frequente em Paulo, ou dar-lhe uma terceira ocorrência | só **Rm 1.20 (ἀναπολογήτους) e 2.1** no NT inteiro | 08–10/10/2026: SBLGNT+MorphGNT, Nestle 1904 e RP, busca sem acentos. **Ressalva:** NA28 e BDAG não consultados |
+| S3 | **as trocas e as entregas** | contar quatro παρέδωκεν, ou tratar ἤλλαξαν e μετήλλαξαν como o mesmo verbo | παρέδωκεν **3×** (1.24, 26, 28); ἤλλαξαν 1.23 (ἀλλάσσω); μετήλλαξαν **2×** (1.25, 26; μεταλλάσσω). A troca de 1.28 não usa verbo de trocar: οὐκ ἐδοκίμασαν | 08–10/10/2026: SBLGNT, Nestle 1904, RP concordam. **Ressalva:** NA28 não consultado |
+| S4 | **o catálogo e a crítica textual** | afirmar «πορνεία está no catálogo de Paulo» ou citar «implacáveis» como texto de 1.31 sem ressalva | πορνείᾳ (1.29) e ἀσπόνδους (1.31) constam no texto **bizantino (RP)** e **não** nas edições críticas WH, Treg, NA28 e SBLGNT. **Não** afirmar «TR», «leitura secundária» (juízo de Metzger) nem testemunhas sem conferir | 08–10/10/2026: SBLGNT, Nestle 1904, RP; NA28 só via aparato do SBLGNT. **Abertos:** TR, Metzger *TCGNT*², testemunhas do aparato do NA28 |
+| S5 | **os «4 blocos» do catálogo** | apresentar a divisão em quatro blocos como dado do texto, ou fixar um número de vícios sem dizer a edição | a sintaxe dá **três** grupos (4 dativos com πεπληρωμένους; 5 genitivos com μεστούς; 12 acusativos). Um quarto bloco é **análise** do intérprete — INFERÊNCIA PLAUSÍVEL. Contagem: **21 no texto crítico, 23 no bizantino** (nenhuma edição tem 22) | 08–10/10/2026: parsing do SBLGNT + RP. **Ressalva:** NA28 e comentários (Cranfield, Moo) não consultados |
 
 ---
 

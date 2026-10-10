@@ -49,6 +49,6 @@ powershell -ExecutionPolicy Bypass -File _scripts\criar_cadernos_rm2.ps1 -Perfil
 
 ## Estado dentro do projeto IND — leia
 
-- A **trava de sentinelas continua ativa** (tabela verificada vazia). Esta mídia **não é «saída do projeto»**: nasce de um texto não verificado + uma auditoria, e **não substitui** os anéis nem os 16 prompts. Trate os áudios e vídeos como **material de estudo, não publicável**, até as sentinelas S2, S3, S5 (e S7, S8, S11) serem migradas.
+- A **trava de sentinelas continua ativa** (tabela verificada vazia). Esta mídia **não é «saída do projeto»**: nasce de um texto não verificado + uma auditoria, e **não substitui** os anéis nem os 16 prompts. Trate os áudios e vídeos como **material de estudo, não publicável**, até as demais sentinelas (S1, S6–S8, S11) serem migradas; S2–S5 já foram em 10/10.
 - **Grego:** SBLGNT (CC BY 4.0, Holmes 2010) via MorphGNT — **não o NA28**, que o texto-base diz usar.
 - **S7 (προσωπολημψία):** varredura da lista de lemas do Rahlfs não acha o substantivo; **segunda checagem (texto corrido, BDAG/TDNT) pendente** — o C4 diz isso ao ar.
