@@ -165,8 +165,52 @@ Pedido do usuário: verificar a S8 primeiro. **Resultado: não verificada; não 
   e conferir (a) 2.1 inteiro ou parte, (b) o argumento, (c) "o consenso rejeita" —
   esta parte **não tem nenhum apoio** até agora.
 
+## 8. Verificação das sentinelas S1–S5 (08/10/2026)
+
+Pedido: verificar S1–S5 pelo NA28. **O NA28 não esteve acessível** (texto protegido;
+academic-bible.com não abre daqui; sem biblioteca). Usei SBLGNT+MorphGNT, Nestle 1904 e
+Robinson–Pierpont, e o **aparato do SBLGNT, que registra a leitura do NA28** onde as
+edições divergem. Detalhe e vereditos: `_artifacts/VERIFICACAO_S1-S5.md`; script:
+`_scripts/verificar_s1_s5_edicoes_abertas.py`.
+
+| # | Veredito |
+|---|---|
+| S1 | ❓ não decidida (o texto grego não decide; indício de segunda mão) |
+| S2 | ✅ só Rm 1.20 e 2.1, nas três edições |
+| S3 | ✅ παρέδωκεν 1.24/26/28; ἤλλαξαν 1.23; μετήλλαξαν 1.25/26 |
+| S4 | 🟡 NA28 não lê πορνείᾳ nem ἀσπόνδους; "TR", "secundárias" e testemunhas abertas |
+| S5 | 🟡 3 grupos sintáticos ✔; **contagem corrigida: 21 crítico / 23 bizantino (não "22")** |
+
+**Nenhuma migrada:** falta o método de conteúdo (notebook) e a edição pedida (NA28);
+aceitar as substitutas é decisão do usuário.
+
+**Erro meu corrigido durante a verificação:** a primeira versão da busca ignorou
+acentuação e normalização Unicode e deu resultados incompletos (ἀναπολογήτους de 1.20
+não casava; os lemas do Nestle 1904 vêm em outra forma Unicode). Refeita antes de qualquer
+conclusão.
+
+**Efeito nos outros arquivos:** corrigidos o rascunho S5, o roteiro, o Prompt 9 e a DR-1.3
+(contagem); marcados no Prompt 2 os pontos **sem variação entre edições** (1.32, 2.2, 3.9), que o
+projeto supunha existir. **Correção ao roteiro:** os limites do P46 ("8.15–15.9; 16.25-27") eram
+de memória; o indício aponta 15.11 e não confirma 16.25-27.
+
 ## Pendências abertas
 
 - Ambiente: perfil da CLI para a conta Pro; login da Pro (bloqueio do
   `rookie_cookies.pyd`); `patch_rpc_limit.ps1` para a CLI 0.8.4.
 - Fase 0: Etapas 1–4 e 6–8 (máquina local); A1–A33 da Etapa 5; seções 1–9 e 16 do Cap1 sem auditoria.
+
+## 9. 09/10/2026 — kit dos 4 cadernos de Rm 2.1-11 (prioridade do usuário)
+
+- Pedido: 4 cadernos (1 por tópico), cada um com 3 áudios deep dive + 1 debate + 2 vídeos, personas variadas, a partir do texto de exegese de Rm 2.1-11 colado pelo usuário.
+- Entregue: `cadernos_rm2/` (fontes, auditoria, 24 prompts, manifest) e `_scripts/criar_cadernos_rm2.ps1` (ASCII; simulação por padrão; **não testado**). **Não gerado:** os cadernos, áudios e vídeos (sem CLI/login na nuvem).
+- O texto colado é resposta de IA (autoria desconhecida). Auditado contra SBLGNT/MorphGNT em disco; erros achados em `fontes/c*/02_auditoria.md`.
+- S7: lista de lemas do Rahlfs (eliranwong/LXX-Rahlfs-1935, HEAD a1b5ff1) não traz προσωπολημψία nem os cognatos no bloco «só LXX»; **só varredura de lista de palavras — 2ª checagem pendente**. Não migrada.
+- Não verificados (de memória): T. Levi 3.2; Aristóteles *Pol.* 1302b4; 2Br 14.12/24.1, 4Esd 7.77, Tb 4.9, Sr 29.11; Calvino/Murray/Schreiner em Rm 2.6-7; Bultmann/Walker.
+
+## 10. 10/10/2026 — migração de S2, S3, S4 e S5 para a tabela verificada
+
+- Decisão do usuário («faça»): aceitar SBLGNT/MorphGNT, Nestle 1904 e RP, mais o aparato do SBLGNT, no lugar do NA28. Migradas **S2, S3, S4 e S5**; **S1 não** (sem fonte primária).
+- S4 e S5 migram **só com a formulação que a verificação sustenta** (sem «TR», sem «secundárias», sem testemunhas; S5 com 21/23). Ressalvas na coluna «Verificado em».
+- **Isto não destrava nada:** o anel 1 exige S1–S8 e S11. Tabela: 4; rascunhos: 10. Ainda falta o método de conteúdo (notebook) para todas.
+

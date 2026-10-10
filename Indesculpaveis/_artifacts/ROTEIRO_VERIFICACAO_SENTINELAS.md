@@ -104,7 +104,7 @@ entrada (FRONTEIRA). Sem eles, usar `grep -n` nos `.md` de `_processados_md\`.
 
 | Item | |
 |---|---|
-| **Afirmação** | a sintaxe dá **três** grupos (4 dativos com πεπληρωμένους; 5 genitivos com μεστούς; 12 acusativos); o "quarto bloco" (4 α-privativos) é **análise**, e a contagem (21; 22 com ἀσπόνδους) depende da crítica textual |
+| **Afirmação** | a sintaxe dá **três** grupos (4 dativos com πεπληρωμένους; 5 genitivos com μεστούς; 12 acusativos); o "quarto bloco" (4 α-privativos) é **análise**, e a contagem depende da crítica textual (**21 crítico / 23 bizantino** — verificado em 08/10; "22" não existe) |
 | **Método 1** | consulta: *"Como Moo, Cranfield e Dunn dividem o catálogo de 1.29-31? A divisão em 4 blocos vem do texto ou do intérprete? Quantos vícios cada um conta?"* |
 | **Método 2** | **contar no NA28** (leitura do texto) e conferir nos comentários *ad loc.* |
 | **Cuidado** | o rascunho conta 21 contando "ἐφευρετὰς κακῶν" e "γονεῦσιν ἀπειθεῖς" como **um** item cada — **explicitar o critério** ao migrar |

@@ -51,11 +51,12 @@
 | Sequência (`Sequencia_Indesculpaveis.md`) | ✅ 8 sessões |
 | Estratégia de anéis do eixo focal | ✅ documentada; **execução ANTES dos 16 prompts** |
 | Prompts dos 4 anéis (`aneis/`) | ✅ 20 consultas de Deep Research, 4 × (R4 + C1–C3), 44 itens de mídia — **nada executado**; sintaxe da CLI a conferir |
-| Sentinelas | 🟡 **14 rascunhos, tabela vazia — trava ativa**; roteiro de verificação pronto (`_artifacts/ROTEIRO_VERIFICACAO_SENTINELAS.md`) |
+| Sentinelas | 🟡 **10/10: S2, S3, S4, S5 migradas (edições abertas, sem NA28); 10 rascunhos; trava ainda ativa.** Antes: **14 rascunhos, tabela vazia — trava ativa; S1–S5 verificadas em parte em 08/10 (`_artifacts/VERIFICACAO_S1-S5.md`), nenhuma migrada**; roteiro de verificação pronto (`_artifacts/ROTEIRO_VERIFICACAO_SENTINELAS.md`) |
 | Lacunas de refutação | 🟡 8 linhas, **todas ⬜ não conferidas** |
 | Curadoria | 🟡 preenchida pelos documentos; **nenhuma obra aberta** |
 | Fase 0 · Etapa 5 (auditoria do relatório-semente) | ✅ prompts 13–15 (04/10) e 10–12 (06/10): leitura e correções; ⬜ itens A1–A33 a conferir em disco; ⬜ seções 1–9 e 16 não auditadas |
 | Fase 0 · Etapa 1 (perfil Pro) | 🟡 script pronto (`_scripts/etapa1_perfil_pro.ps1`); **rodar no Windows** |
+| **Cadernos Rm 2.1-11** (`cadernos_rm2/`, 09/10) | 🟡 kit pronto: 4 cadernos × (3 deep dive + 1 debate + 2 vídeos) = 24 prompts + script (`criar_cadernos_rm2.ps1`, **não testado**) + auditoria do texto-base; **nada gerado no NotebookLM** |
 | Pasta local, biblioteca, notebook | ⬜ |
 | Saídas 00–16 | ⬜ |
 
@@ -103,4 +104,5 @@
    copiar `Relatorio_Cap2_Romanos.md` (hoje só no Drive) se for usado.
 3. Etapa 4 — **S8 tentada em 07/10 sem acesso a fonte: continua NÃO verificada** (ver `_LOG_EXECUCAO.md` §7; indício a favor da atribuição, falta ler Bultmann/Käsemann/Fitzmyer; nova objeção **L9**, Walker 1999). Verificar as sentinelas pelo roteiro (`_artifacts/ROTEIRO_VERIFICACAO_SENTINELAS.md`), lote A primeiro (S1–S5, só NA28). **S8 antes de qualquer outra coisa que a cite:** a atribuição a Bultmann pode estar errada.
 4. ~~Etapa 5 — auditar o relatório-semente~~ ✅ 04/10; falta conferir A1–A11 em disco.
+0. **Prioridade (09/10):** rodar `cadernos_rm2/` na máquina do usuário (ver `cadernos_rm2/README.md`); conferir o texto-base antes de publicar qualquer áudio.
 5. Anéis 1→4 (ESTRATEGIA §6), depois os 16 prompts.
