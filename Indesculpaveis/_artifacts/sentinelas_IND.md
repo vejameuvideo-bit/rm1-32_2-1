@@ -82,7 +82,7 @@ não-refutado.
 
 | # | Onde | O problema | O que fazer |
 |---|---|---|---|
-| S11 | `Relatorio_Cap1_Romanos.md`, prompt 15, quadro de certeza: *"Rm 1.18–32 como armadilha para judeu em 2.1 — Altíssima"* | a identidade **judaica** do interlocutor de 2.1 recebe certeza máxima, mas é o eixo mais disputado da perícope (Stowers, Thorsteinsson, Campbell; o judeu só é nomeado em 2.17). **Inflar rótulo é o flanco por onde o crítico entra** | a **armadilha retórica** (1.32 → 2.1) pode ficar alta; a **identidade** do interlocutor desce para HIPÓTESE DEBATIDA até o Prompt 11 |
+| S11 | `Relatorio_Cap1_Romanos.md`, prompt 15, quadro de certeza: *"Rm 1.18–32 como armadilha para judeu em 2.1 — Altíssima"* | a identidade **judaica** do interlocutor de 2.1 recebe certeza máxima, mas é o eixo mais disputado da perícope (Stowers, Thorsteinsson, Campbell; o interlocutor só é identificado como judeu em 2.17). **Inflar rótulo é o flanco por onde o crítico entra** | a **armadilha retórica** (1.32 → 2.1) pode ficar alta; a **identidade** do interlocutor desce para HIPÓTESE DEBATIDA até o Prompt 11 |
 | S12 | idem, prompt 14, checkpoint: *"apresentadas com fidelidade e equidade acadêmica"*; *"Brooten e Gagnon citados como concordes na exegese, divergindo apenas na autoridade normativa"* | o relatório antecede a formalização da Regra Zero; "equidade" entre as posições é exatamente o que a regra proíbe, e a divergência "apenas" na autoridade **é** a objeção mais séria (hermenêutica), que precisa dos cinco itens | ler a seção inteira contra os cinco itens; registrar o resultado em `_LOG_EXECUCAO.md` antes de subir o relatório |
 
 ---
