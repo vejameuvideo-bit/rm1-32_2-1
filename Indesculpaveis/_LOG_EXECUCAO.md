@@ -214,3 +214,8 @@ de memória; o indício aponta 15.11 e não confirma 16.25-27.
 - S4 e S5 migram **só com a formulação que a verificação sustenta** (sem «TR», sem «secundárias», sem testemunhas; S5 com 21/23). Ressalvas na coluna «Verificado em».
 - **Isto não destrava nada:** o anel 1 exige S1–S8 e S11. Tabela: 4; rascunhos: 10. Ainda falta o método de conteúdo (notebook) para todas.
 
+## 11. 11/10/2026 — S7 (προσωπολημψία) e redação
+
+- Segunda checagem de S7: texto corrido do Rahlfs (eliranwong/LXX-Rahlfs-1935, `text_accented.csv`/`text_unaccented.csv`): 617× πρόσωπον e **0** formas de προσωπολημψ-/προσωπολημπτ-. Com a varredura da lista de lemas (§9), são dois métodos de conteúdo no mesmo repositório; **falta BDAG/TDNT** e o aparato crítico da LXX. S7 **continua rascunho** (a ausência numa edição, Rahlfs 1935, não cobre variantes).
+- Redação corrigida em S11/roteiro/auditoria: «o interlocutor só é identificado como judeu em 2.17» (Ἰουδαῖος aparece antes como categoria, 1.16 e 2.9-10).
+

@@ -172,7 +172,7 @@ entrada (FRONTEIRA). Sem eles, usar `grep -n` nos `.md` de `_processados_md\`.
 
 | Item | |
 |---|---|
-| **Afirmação** | o relatório do Cap1 dá certeza "altíssima" à identidade **judaica** do interlocutor; o rótulo honesto é HIPÓTESE DEBATIDA (o judeu só é nomeado em 2.17) |
+| **Afirmação** | o relatório do Cap1 dá certeza "altíssima" à identidade **judaica** do interlocutor; o rótulo honesto é HIPÓTESE DEBATIDA (o interlocutor só é identificado como judeu em 2.17) |
 | **Evidência já colhida** | confirmada em **4 pontos** (S13-15 §1; S10-12 §2) — **já corrigida** nas versões auditadas |
 | **Método 1** | consulta: *"Quem identifica o interlocutor de 2.1 como judeu, quem como gentio, quem como universal? Cite as obras."* |
 | **Método 2** | **verificar a versão auditada** (`semente/`): nenhum "Altíssima" restante para a identidade; e as obras de Stowers e Thorsteinsson **em disco** (por título **e** sobrenome) |
