@@ -65,7 +65,8 @@
 | IND - Eixo 1.29-2.2 · Anel 1–4 | — | — | ⬜ criar primeiro (ESTRATEGIA §6) |
 | IND - Rm 1.18-3.20 | — | — | ⬜ criar na Fase 0, Etapa 6 |
 | IND Rm2 C1 - Indesculpabilidade do moralista | `bd988699-9780-4722-a6b4-49bf1b16020e` | 3, todas `ready` (14/10) | ✅ criado; **mídia 6/6 pronta** (4 áudios + 2 vídeos) |
-| IND Rm2 C2 · C3 · C4 | — | — | ⬜ |
+| IND Rm2 C2 - Paciencia e ira entesourada | `79d06c63-2cdd-4d16-ac2c-02a72ec29777` | em envio (14/10) | 🟡 criado; fontes e mídia em andamento |
+| IND Rm2 C3 · C4 | — | — | ⬜ |
 
 **Conta:** Pro `aleinstitutoreformado@gmail.com` · perfil **`ind-pro`** (criado e validado em 14/10/2026).
 **Relação com a U02 do JDD:** projetos **paralelos**.
