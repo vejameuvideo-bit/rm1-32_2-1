@@ -35,7 +35,35 @@ O v. 3 e os vv. 7–10 em detalhe **não são comentados pelo texto-base**; isso
 1. **Não é empate** (Regra Zero): a tese conservadora é defendida e a objeção é refutada pelos cinco itens; o advogado da objeção a apresenta **na melhor versão**.
 2. **Proibido terminar em «há debate»**: o episódio fecha com **desfecho explícito**, rotulado, e com a **concessão honesta** do que a objeção acerta. Onde falta obra primária no caderno: **«lacuna»** — a objeção é nomeada, não desenvolvida.
 
-## Como rodar (na máquina do usuário)
+## Execução automática (recomendado) — `_scripts/orquestrar_cadernos_rm2.ps1`
+
+Um único comando faz tudo, sem perguntas, e pode ficar rodando sozinho a noite inteira:
+
+```powershell
+cd C:\Users\admintrt9a\Projetos\INDESCULPAVEIS\Indesculpaveis
+powershell -ExecutionPolicy Bypass -File _scripts\orquestrar_cadernos_rm2.ps1             # simulação (só lê e planeja)
+powershell -ExecutionPolicy Bypass -File _scripts\orquestrar_cadernos_rm2.ps1 -Executar   # executa
+```
+
+O que ele garante:
+
+| Garantia | Como |
+|---|---|
+| conta certa | aborta se `auth check --test --json` não mostrar `aleinstitutoreformado@gmail.com` |
+| nada duplicado | acha cadernos pelo ID salvo ou pelo título; aborta o caderno se houver dois com o mesmo título; fontes e mídias existentes são reaproveitadas |
+| idempotente | estado em `cadernos_rm2/estado_execucao.json`; rodar de novo só faz o que falta |
+| cota | lê `notebooklm usage --json` antes de cada geração; acima de 90% da janela de 5 h, **espera o reinício** (até `-MaxHoras`, padrão 14) |
+| Regra 11-D | geração sem resposta clara **não é repetida**: reconcilia pela `artifact list`. Só `RATE_LIMITED` (recusa explícita) é reenviado, uma vez, depois da espera |
+| falha | artefato `failed` recebe **uma** `artifact retry` (no lugar, sem duplicar) |
+| conclusão | espera todos ficarem `completed` e baixa áudio (`.m4a`) e vídeo (`.mp4`) para `cadernos_rm2/saida/cN/` |
+| relatório | `cadernos_rm2/relatorios/relatorio_*.md` (tabela por item + checagens + veredito) e `log_*.txt` |
+| PC acordado | impede o Windows de dormir enquanto roda (não impede tampa fechada nem desligamento) |
+
+Saída: `0` = COMPLETO · `2` = INCOMPLETO (pendente/adiado; rode de novo depois) · `1` = FALHA.
+
+**Testado em 14/10** (PowerShell 7.4 + CLI simulada com o JSON da 0.8.4, e cada comando conferido pelo parser real da 0.8.4): execução completa a partir do estado real (C1 pronto, C2 com 2 pendentes, cota em 97%) → espera da janela → C3 e C4 criados → 24/24 baixados; segunda execução sem nenhuma escrita; RATE_LIMITED, timeout ambíguo e artefato com falha; título duplicado e conta errada barrados; prazo curto → INCOMPLETO sem gerar. **Não testado:** o PowerShell 5.1 do Windows e o Google real.
+
+## Como rodar passo a passo (alternativa manual)
 
 ```powershell
 cd C:\Users\admintrt9a\Projetos\Indesculpaveis

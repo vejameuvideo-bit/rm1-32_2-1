@@ -107,6 +107,7 @@
    copiar `Relatorio_Cap2_Romanos.md` (hoje só no Drive) se for usado.
 3. Etapa 4 — **S8 tentada em 07/10 sem acesso a fonte: continua NÃO verificada** (ver `_LOG_EXECUCAO.md` §7; indício a favor da atribuição, falta ler Bultmann/Käsemann/Fitzmyer; nova objeção **L9**, Walker 1999). Verificar as sentinelas pelo roteiro (`_artifacts/ROTEIRO_VERIFICACAO_SENTINELAS.md`), lote A primeiro (S1–S5, só NA28). **S8 antes de qualquer outra coisa que a cite:** a atribuição a Bultmann pode estar errada.
 4. ~~Etapa 5 — auditar o relatório-semente~~ ✅ 04/10; falta conferir A1–A11 em disco.
+0. **15/10:** rodar `_scripts/orquestrar_cadernos_rm2.ps1 -Executar` (faz C2→C4, espera a cota, baixa e gera relatório em `cadernos_rm2/relatorios/`). Ao voltar: ler o relatório; se INCOMPLETO, rodar de novo.
 0. **14/10:** script dos cadernos corrigido contra a CLI 0.8.4 real (`-n` vai depois do subcomando; `--prompt-file`; `source wait`); vídeos `cinematic` trocados (exigem conta Ultra).
 0. **Prioridade (09/10):** rodar `cadernos_rm2/` na máquina do usuário (ver `cadernos_rm2/README.md`); conferir o texto-base antes de publicar qualquer áudio.
 5. Anéis 1→4 (ESTRATEGIA §6), depois os 16 prompts.
