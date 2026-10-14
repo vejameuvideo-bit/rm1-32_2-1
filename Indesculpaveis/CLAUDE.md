@@ -111,6 +111,7 @@ Indesculpaveis/
 ├── prompts_indesculpaveis.md          ← os 16 prompts (blocos A–E)
 ├── Sequencia_Indesculpaveis.md        ← sessão a sessão
 ├── ESTRATEGIA_ANEIS_INDESCULPAVEIS.md ← o eixo focal 1.29–2.2 em 4 anéis
+├── ESTRATEGIA_CADERNOS_ARTEFATOS.md  ← como montar cadernos e gerar mídia (medido)
 ├── LACUNAS_REFUTACAO.md               ← pauta de refutação (Regra Zero)
 ├── CURADORIA_FONTES_INDESCULPAVEIS.md ← bibliografia com tier e conferência
 ├── FASE_0_CHECKLIST.md                ← do zero ao primeiro prompt
