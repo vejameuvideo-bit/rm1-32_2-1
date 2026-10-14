@@ -135,7 +135,7 @@ foreach ($n in $Caderno) {
                 }
                 $sid = [string]$j.source.id
                 & notebooklm -p $Perfil source wait -n $id $sid --timeout $EsperaFonteSeg
-                if ($LASTEXITCODE -ne 0) { Write-Host "[AVISO] fonte $sid nao ficou 'ready' (exit $LASTEXITCODE: 1=falhou, 2=timeout). Parando este caderno." -ForegroundColor Yellow; $okFontes = $false; break }
+                if ($LASTEXITCODE -ne 0) { Write-Host "[AVISO] fonte $sid nao ficou 'ready' (exit ${LASTEXITCODE}: 1=falhou, 2=timeout). Parando este caderno." -ForegroundColor Yellow; $okFontes = $false; break }
             } else {
                 Mostra @("-p",$Perfil,"source","wait","-n",$id,"<SOURCE_ID>","--timeout","$EsperaFonteSeg")
             }

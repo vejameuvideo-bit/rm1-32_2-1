@@ -234,3 +234,8 @@ de memória; o indício aponta 15.11 e não confirma 16.25-27.
 - **Solução que funcionou:** fechar o Chrome; abrir `chrome.exe --user-data-dir="%USERPROFILE%\.notebooklm\profiles\ind-pro\browser_profile"`, entrar na conta e confirmar a lista de cadernos em notebooklm.google.com; fechar; rodar o login **sem** `--fresh`. **Usar isto em todo perfil novo.**
 - Pasta local do projeto: `C:\Users\admintrt9a\Projetos\INDESCULPAVEIS\Indesculpaveis` (o Windows não distingue maiúsculas: `...\Projetos\Indesculpaveis` é a pasta de cima).
 
+## 14. 14/10/2026 — erro de parse no PowerShell 5.1 (criar_cadernos_rm2.ps1:138)
+
+- `"... (exit $LASTEXITCODE: ...)"` — o `:` depois da variável é lido como drive. Corrigido para `${LASTEXITCODE}`.
+- **Novo teste disponível nesta sessão:** PowerShell 7.4.6 (release do GitHub). Os dois scripts passam no parser (`[Parser]::ParseFile`) e o `criar_cadernos_rm2.ps1` rodou de ponta a ponta (simulação e `-Executar -Fase tudo -Caderno 1`) contra uma CLI **simulada** que devolve o JSON da 0.8.4: os 13 comandos saem na ordem e com os argumentos esperados. Limite: PS 7 ≠ PS 5.1 e a CLI era simulada.
+
