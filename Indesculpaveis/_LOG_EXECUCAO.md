@@ -242,4 +242,4 @@ de memória; o indício aponta 15.11 e não confirma 16.25-27.
 ## 15. 14/10/2026 — primeiro caderno real
 
 - `IND Rm2 C1 - Indesculpabilidade do moralista` = `bd988699-9780-4722-a6b4-49bf1b16020e` (conta `aleinstitutoreformado`, perfil `ind-pro`). Persona aplicada. Fontes `ready`: 00_contexto_comum.md (342849db…), 01_texto.md (d59ffeff…), 02_auditoria.md (1ea7034f…). **Primeira execução real do script: `create --json`, `configure --persona` e `source add/wait` funcionaram na CLI 0.8.4 / PS 5.1.**
-
+- C1: c1_A1 (teste) e depois c1_A2–A4, c1_V1–V2, um por vez com `-Somente`: **6/6 prontos** (relato do usuário). `generate --prompt-file` funcionou na conta Pro, inclusive `debate` e `--length long` em pt_BR.
