@@ -22,9 +22,11 @@ O v. 3 e os vv. 7–10 em detalhe **não são comentados pelo texto-base**; isso
 | Caderno | A1 · A2 · A3 (deep dive, long) | A4 debate | V1 · V2 (vídeo) |
 |---|---|---|---|
 | C1 | professor de grego+aluno · pastor+convertido · historiador+sistemático | defensor × advogado da objeção (2.1 glosa / interlocutor) | explainer/classic · explainer/whiteboard |
-| C2 | pastor+convertido · exegeta+doutorando · pregador+ouvinte | (ira impessoal de Dodd / «entesourar» e mérito) | brief/classic · cinematic |
+| C2 | pastor+convertido · exegeta+doutorando · pregador+ouvinte | (ira impessoal de Dodd / «entesourar» e mérito) | brief/classic · explainer/watercolor |
 | C3 | exegeta+doutorando · professor+aluno · mentora+estudante | (Rm 2 incoerente com 3–4) | explainer/whiteboard · brief/classic |
-| C4 | historiador+sistemático · pregador+ouvinte · pastor+convertido | (opção pelos pobres / eleição) | cinematic · explainer/classic |
+| C4 | historiador+sistemático · pregador+ouvinte · pastor+convertido | (opção pelos pobres / eleição) | explainer/heritage · explainer/classic |
+
+*14/10: os dois vídeos `cinematic` foram trocados — o formato exige Google AI Ultra, e a conta é AI Pro.*
 
 **Cota:** 16 áudios + 8 vídeos — dentro de 20/20 por dia e por conta, sobram 4 áudios e 12 vídeos `[a conferir: cota medida em outro projeto]`.
 
@@ -45,7 +47,7 @@ powershell -ExecutionPolicy Bypass -File _scripts\criar_cadernos_rm2.ps1 -Perfil
 powershell -ExecutionPolicy Bypass -File _scripts\criar_cadernos_rm2.ps1 -Perfil <PERFIL_PRO> -Executar -Fase midia -Caderno 1 -Ids "1=<uuid>" -Somente c1_A1
 ```
 
-⚠️ **Script não testado.** Conferir cada flag com `notebooklm generate --help` (CLI 0.8.4). **Regra 11-D:** um `timeout` em `generate` **não é falha** — nunca repetir o comando; usar `artifact list` / `artifact wait <id>`. Antes de subir a primeira fonte, `auth check --test` deve abrir `aleinstitutoreformado@gmail.com` (Etapa 1 da Fase 0, ainda pendente).
+⚠️ **Sintaxe conferida em 14/10 contra a `notebooklm-py` 0.8.4 instalada (parser real, sem login); execução contra o Google ainda não testada.** **Regra 11-D:** um `timeout` em `generate` **não é falha** — nunca repetir o comando; usar `artifact list` / `artifact wait <id>`. Antes de subir a primeira fonte, `auth check --test` deve abrir `aleinstitutoreformado@gmail.com` (Etapa 1 da Fase 0, ainda pendente).
 
 ## Estado dentro do projeto IND — leia
 

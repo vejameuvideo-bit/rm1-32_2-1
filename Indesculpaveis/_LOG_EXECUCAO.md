@@ -219,3 +219,11 @@ de memória; o indício aponta 15.11 e não confirma 16.25-27.
 - Segunda checagem de S7: texto corrido do Rahlfs (eliranwong/LXX-Rahlfs-1935, `text_accented.csv`/`text_unaccented.csv`): 617× πρόσωπον e **0** formas de προσωπολημψ-/προσωπολημπτ-. Com a varredura da lista de lemas (§9), são dois métodos de conteúdo no mesmo repositório; **falta BDAG/TDNT** e o aparato crítico da LXX. S7 **continua rascunho** (a ausência numa edição, Rahlfs 1935, não cobre variantes).
 - Redação corrigida em S11/roteiro/auditoria: «o interlocutor só é identificado como judeu em 2.17» (Ἰουδαῖος aparece antes como categoria, 1.16 e 2.9-10).
 
+## 12. 14/10/2026 — força-tarefa (pedido do usuário)
+
+- **Rede:** só GitHub e PyPI respondem (archive.org, Perseus web, HathiTrust, NTVMR: bloqueados). Toda alternativa veio de repositórios abertos — ver `_artifacts/VERIFICACAO_FONTES_ABERTAS_2026-10-14.md` (fontes, commits, resultado).
+- **Sentinelas migradas:** S1 (P46/CNTR), S6 (LSJ + Abbott-Smith), S7 (Rahlfs + LSJ + Abbott-Smith), S14 (WLC + Rahlfs). Tabela: **8**. S13: Agostinho conferido (CSEL), não migra. S8: sem alternativa.
+- **Erro meu corrigido:** C4, Lv 19.15 (נשא פנים vai com o pobre, não com o grande).
+- **CLI:** agente instalou `notebooklm-py==0.8.4` e passou cada comando pelo parser real. O script estava quebrado (`-n` é opção do subcomando, não global). Corrigido: `--prompt-file`, `create --json`, `source add --json` + `source wait`, `--length` do manifest, sem `--style` em cinematic/short, persona com escape para PS 5.1. Sem teste contra o Google.
+- **Manifest:** `cinematic` exige Google AI Ultra (help da CLI); c2_V2 → explainer/watercolor, c4_V1 → explainer/heritage.
+
