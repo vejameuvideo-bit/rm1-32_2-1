@@ -165,8 +165,92 @@ Pedido do usuário: verificar a S8 primeiro. **Resultado: não verificada; não 
   e conferir (a) 2.1 inteiro ou parte, (b) o argumento, (c) "o consenso rejeita" —
   esta parte **não tem nenhum apoio** até agora.
 
+## 8. Verificação das sentinelas S1–S5 (08/10/2026)
+
+Pedido: verificar S1–S5 pelo NA28. **O NA28 não esteve acessível** (texto protegido;
+academic-bible.com não abre daqui; sem biblioteca). Usei SBLGNT+MorphGNT, Nestle 1904 e
+Robinson–Pierpont, e o **aparato do SBLGNT, que registra a leitura do NA28** onde as
+edições divergem. Detalhe e vereditos: `_artifacts/VERIFICACAO_S1-S5.md`; script:
+`_scripts/verificar_s1_s5_edicoes_abertas.py`.
+
+| # | Veredito |
+|---|---|
+| S1 | ❓ não decidida (o texto grego não decide; indício de segunda mão) |
+| S2 | ✅ só Rm 1.20 e 2.1, nas três edições |
+| S3 | ✅ παρέδωκεν 1.24/26/28; ἤλλαξαν 1.23; μετήλλαξαν 1.25/26 |
+| S4 | 🟡 NA28 não lê πορνείᾳ nem ἀσπόνδους; "TR", "secundárias" e testemunhas abertas |
+| S5 | 🟡 3 grupos sintáticos ✔; **contagem corrigida: 21 crítico / 23 bizantino (não "22")** |
+
+**Nenhuma migrada:** falta o método de conteúdo (notebook) e a edição pedida (NA28);
+aceitar as substitutas é decisão do usuário.
+
+**Erro meu corrigido durante a verificação:** a primeira versão da busca ignorou
+acentuação e normalização Unicode e deu resultados incompletos (ἀναπολογήτους de 1.20
+não casava; os lemas do Nestle 1904 vêm em outra forma Unicode). Refeita antes de qualquer
+conclusão.
+
+**Efeito nos outros arquivos:** corrigidos o rascunho S5, o roteiro, o Prompt 9 e a DR-1.3
+(contagem); marcados no Prompt 2 os pontos **sem variação entre edições** (1.32, 2.2, 3.9), que o
+projeto supunha existir. **Correção ao roteiro:** os limites do P46 ("8.15–15.9; 16.25-27") eram
+de memória; o indício aponta 15.11 e não confirma 16.25-27.
+
 ## Pendências abertas
 
 - Ambiente: perfil da CLI para a conta Pro; login da Pro (bloqueio do
   `rookie_cookies.pyd`); `patch_rpc_limit.ps1` para a CLI 0.8.4.
 - Fase 0: Etapas 1–4 e 6–8 (máquina local); A1–A33 da Etapa 5; seções 1–9 e 16 do Cap1 sem auditoria.
+
+## 9. 09/10/2026 — kit dos 4 cadernos de Rm 2.1-11 (prioridade do usuário)
+
+- Pedido: 4 cadernos (1 por tópico), cada um com 3 áudios deep dive + 1 debate + 2 vídeos, personas variadas, a partir do texto de exegese de Rm 2.1-11 colado pelo usuário.
+- Entregue: `cadernos_rm2/` (fontes, auditoria, 24 prompts, manifest) e `_scripts/criar_cadernos_rm2.ps1` (ASCII; simulação por padrão; **não testado**). **Não gerado:** os cadernos, áudios e vídeos (sem CLI/login na nuvem).
+- O texto colado é resposta de IA (autoria desconhecida). Auditado contra SBLGNT/MorphGNT em disco; erros achados em `fontes/c*/02_auditoria.md`.
+- S7: lista de lemas do Rahlfs (eliranwong/LXX-Rahlfs-1935, HEAD a1b5ff1) não traz προσωπολημψία nem os cognatos no bloco «só LXX»; **só varredura de lista de palavras — 2ª checagem pendente**. Não migrada.
+- Não verificados (de memória): T. Levi 3.2; Aristóteles *Pol.* 1302b4; 2Br 14.12/24.1, 4Esd 7.77, Tb 4.9, Sr 29.11; Calvino/Murray/Schreiner em Rm 2.6-7; Bultmann/Walker.
+
+## 10. 10/10/2026 — migração de S2, S3, S4 e S5 para a tabela verificada
+
+- Decisão do usuário («faça»): aceitar SBLGNT/MorphGNT, Nestle 1904 e RP, mais o aparato do SBLGNT, no lugar do NA28. Migradas **S2, S3, S4 e S5**; **S1 não** (sem fonte primária).
+- S4 e S5 migram **só com a formulação que a verificação sustenta** (sem «TR», sem «secundárias», sem testemunhas; S5 com 21/23). Ressalvas na coluna «Verificado em».
+- **Isto não destrava nada:** o anel 1 exige S1–S8 e S11. Tabela: 4; rascunhos: 10. Ainda falta o método de conteúdo (notebook) para todas.
+
+## 11. 11/10/2026 — S7 (προσωπολημψία) e redação
+
+- Segunda checagem de S7: texto corrido do Rahlfs (eliranwong/LXX-Rahlfs-1935, `text_accented.csv`/`text_unaccented.csv`): 617× πρόσωπον e **0** formas de προσωπολημψ-/προσωπολημπτ-. Com a varredura da lista de lemas (§9), são dois métodos de conteúdo no mesmo repositório; **falta BDAG/TDNT** e o aparato crítico da LXX. S7 **continua rascunho** (a ausência numa edição, Rahlfs 1935, não cobre variantes).
+- Redação corrigida em S11/roteiro/auditoria: «o interlocutor só é identificado como judeu em 2.17» (Ἰουδαῖος aparece antes como categoria, 1.16 e 2.9-10).
+
+## 12. 14/10/2026 — força-tarefa (pedido do usuário)
+
+- **Rede:** só GitHub e PyPI respondem (archive.org, Perseus web, HathiTrust, NTVMR: bloqueados). Toda alternativa veio de repositórios abertos — ver `_artifacts/VERIFICACAO_FONTES_ABERTAS_2026-10-14.md` (fontes, commits, resultado).
+- **Sentinelas migradas:** S1 (P46/CNTR), S6 (LSJ + Abbott-Smith), S7 (Rahlfs + LSJ + Abbott-Smith), S14 (WLC + Rahlfs). Tabela: **8**. S13: Agostinho conferido (CSEL), não migra. S8: sem alternativa.
+- **Erro meu corrigido:** C4, Lv 19.15 (נשא פנים vai com o pobre, não com o grande).
+- **CLI:** agente instalou `notebooklm-py==0.8.4` e passou cada comando pelo parser real. O script estava quebrado (`-n` é opção do subcomando, não global). Corrigido: `--prompt-file`, `create --json`, `source add --json` + `source wait`, `--length` do manifest, sem `--style` em cinematic/short, persona com escape para PS 5.1. Sem teste contra o Google.
+- **Manifest:** `cinematic` exige Google AI Ultra (help da CLI); c2_V2 → explainer/watercolor, c4_V1 → explainer/heritage.
+
+## 13. 14/10/2026 — Fase 0, Etapa 1 concluída (na máquina do usuário)
+
+- Perfil **`ind-pro`** → `aleinstitutoreformado@gmail.com` (authuser 0). `auth check --test`: todos ✓, 28 cookies, `Token fetch` ✓, 175 cadernos na conta. `perfil.config.txt` = `ind-pro`. Perfil global (`epistolas-joao-pro`) **não** foi tocado.
+- **Armadilha medida (CLI 0.8.4):** `login` com navegador sem sessão Google pode cair na página pública de `notebooklm.google.com`; a CLI toma isso por «Already logged in» e grava um `storage_state.json` **sem** `SID`/`__Secure-1PSIDTS` (só `NID`, `OTZ`, `__Host-GAPS`). Aconteceu 2×, inclusive com `--browser chrome --fresh`. Código: `_browser/browser_capture.py` aceita qualquer URL no host do app como login concluído.
+- **Solução que funcionou:** fechar o Chrome; abrir `chrome.exe --user-data-dir="%USERPROFILE%\.notebooklm\profiles\ind-pro\browser_profile"`, entrar na conta e confirmar a lista de cadernos em notebooklm.google.com; fechar; rodar o login **sem** `--fresh`. **Usar isto em todo perfil novo.**
+- Pasta local do projeto: `C:\Users\admintrt9a\Projetos\INDESCULPAVEIS\Indesculpaveis` (o Windows não distingue maiúsculas: `...\Projetos\Indesculpaveis` é a pasta de cima).
+
+## 14. 14/10/2026 — erro de parse no PowerShell 5.1 (criar_cadernos_rm2.ps1:138)
+
+- `"... (exit $LASTEXITCODE: ...)"` — o `:` depois da variável é lido como drive. Corrigido para `${LASTEXITCODE}`.
+- **Novo teste disponível nesta sessão:** PowerShell 7.4.6 (release do GitHub). Os dois scripts passam no parser (`[Parser]::ParseFile`) e o `criar_cadernos_rm2.ps1` rodou de ponta a ponta (simulação e `-Executar -Fase tudo -Caderno 1`) contra uma CLI **simulada** que devolve o JSON da 0.8.4: os 13 comandos saem na ordem e com os argumentos esperados. Limite: PS 7 ≠ PS 5.1 e a CLI era simulada.
+
+## 15. 14/10/2026 — primeiro caderno real
+
+- `IND Rm2 C1 - Indesculpabilidade do moralista` = `bd988699-9780-4722-a6b4-49bf1b16020e` (conta `aleinstitutoreformado`, perfil `ind-pro`). Persona aplicada. Fontes `ready`: 00_contexto_comum.md (342849db…), 01_texto.md (d59ffeff…), 02_auditoria.md (1ea7034f…). **Primeira execução real do script: `create --json`, `configure --persona` e `source add/wait` funcionaram na CLI 0.8.4 / PS 5.1.**
+- C1: c1_A1 (teste) e depois c1_A2–A4, c1_V1–V2, um por vez com `-Somente`: **6/6 prontos** (relato do usuário). `generate --prompt-file` funcionou na conta Pro, inclusive `debate` e `--length long` em pt_BR.- C2: `IND Rm2 C2 - Paciencia e ira entesourada` = `79d06c63-2cdd-4d16-ac2c-02a72ec29777`, rodado com `-Fase tudo -Caderno 2`.
+- **Limite real medido (14/10, durante o C2):** o painel «AI Usage & Limits» da conta mostra **97% de uma janela de 5 horas** (reinício em ~3h34) e 9% do limite **semanal** (reinício sáb. 17/10, 22:56). Pedidos acima do limite «geram depois», não falham. Consumo observado: C1 inteiro (4 áudios + 2 vídeos) + início do C2 ≈ 97% da janela. **Corrige a premissa «20 áudios/20 vídeos por dia»:** na prática cabe ~1 caderno (6 mídias) por janela de 5 h, considerando que a conta é compartilhada com outros perfis.
+- C2 (03:23): fontes `ready`; 6/6 pedidos registrados — `completed`: 3 áudios + 1 vídeo; `pending`: 1 áudio (6f9a326c…) + 1 vídeo (d6a56304…), na fila após o limite. Nada a reenviar.
+
+## 16. 14–15/10/2026 — orquestrador automático (`_scripts/orquestrar_cadernos_rm2.ps1`)
+
+- Pedido do usuário: um script que faça tudo sozinho durante a noite, com checagem de status, verificação de conclusão e relatório.
+- **Formatos JSON lidos no código da CLI 0.8.4** (não supostos): `list` → `notebooks[]`; `source list` → `sources[].status` (`ready|processing|error|preparing|unknown`); `artifact list` → `artifacts[]` com `type_id` (`audio|video`) e `status` (`pending|in_progress|completed|failed`); `usage --json` → `windows[]` (`kind=five_hour`, `used_percent`, `resets_at`); erro JSON `{"error":true,"code":"RATE_LIMITED"}`; `download audio|video -a ID PATH` (.m4a/.mp4); `artifact retry` existe.
+- **Defeitos achados pelos testes e corrigidos antes de entregar:** (1) função chamada `Cli` colidia com o alias embutido `cli` = `Clear-Item` — teria quebrado também no Windows; (2) `-like "[FALHA]*"` trata colchetes como curinga — o veredito nunca contava falhas; (3) artefato que falhava durante a espera só seria refeito na execução seguinte; (4) chamada de energia sem proteção fora do Windows.
+- **Verificação (PowerShell 7.4.6 + CLI simulada com estado e o JSON da 0.8.4):** simulação = 0 escritas; execução do estado real (C1 pronto, C2 com 2 pendentes, cota 97%) → esperou a janela → criou C3 e C4 → 12 gerações → 24/24 completos e baixados, 0 duplicatas, saída 0; segunda execução = 0 escritas; falhas (RATE_LIMITED reenviado 1×, timeout reconciliado sem duplicar, `failed` → 1 retry) → 24/24; título duplicado → caderno não tocado, FALHA; conta errada → 0 escritas, saída 1; prazo curto com cota esgotada → 0 gerações, INCOMPLETO. Todos os comandos emitidos passaram no parser real da 0.8.4 (0 rejeitados).
+- **Não verificável daqui:** PowerShell 5.1 real, Google real (tempos, cota, fila «gera depois»).
+

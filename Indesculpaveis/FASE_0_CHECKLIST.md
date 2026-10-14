@@ -16,7 +16,7 @@ copiar esta pasta do repositório e criar `biblioteca\`, `_processados_md\`,
 `_fora_do_notebook\`.
 
 ```powershell
-notebooklm -p <PERFIL_PRO> auth check --test
+notebooklm -p ind-pro auth check --test
 ```
 
 ⚠️ Pendências herdadas de `../ESTADO_ATUAL_2026-10-03.md` §6: login da Pro
@@ -26,9 +26,9 @@ da CLI 0.7.3. Resolver **antes** de qualquer triagem com caderno grande.
 **Script:** `_scripts\etapa1_perfil_pro.ps1` (rodar primeiro sem `-Executar`).
 **Conta:** `aleinstitutoreformado@gmail.com` (Pro). Login num perfil **próprio**
 (não sobrescrever `default`, `nuvemti` nem os perfis do JDD); gravar o nome em
-`perfil.config.txt`; substituir `<PERFIL_PRO>` nos documentos.
+`perfil.config.txt`; substituir o marcador do perfil nos documentos (feito em 14/10: `ind-pro`).
 
-**Critério:** `notebooklm -p <PERFIL_PRO> auth check --test` válido **e** a
+**Critério:** `notebooklm -p ind-pro auth check --test` válido **e** a
 conta autenticada é `aleinstitutoreformado@gmail.com` (conferir o e-mail, não
 só o "ok").
 

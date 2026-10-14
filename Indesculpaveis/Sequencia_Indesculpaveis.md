@@ -18,11 +18,11 @@ concluído — em especial a **Etapa 4
 
 ```powershell
 cd C:\Users\admintrt9a\Projetos\Indesculpaveis
-notebooklm -p <PERFIL_PRO> auth check --test
-notebooklm -p <PERFIL_PRO> -n <ID-IND> source list --json   # todas ready?
+notebooklm -p ind-pro auth check --test
+notebooklm -p ind-pro -n <ID-IND> source list --json   # todas ready?
 ```
 
-`<PERFIL_PRO>` = o perfil da conta `aleinstitutoreformado@gmail.com` (gravado em `perfil.config.txt` na Fase 0).
+`ind-pro` = o perfil da conta `aleinstitutoreformado@gmail.com` (gravado em `perfil.config.txt` na Fase 0).
 ⚠️ `-p` vem **antes** do subcomando; `-n` em **toda** chamada. Nunca
 `notebooklm use` (estado global compartilhado entre janelas). Nunca trocar o
 perfil global.
@@ -61,7 +61,7 @@ experimento anterior.
 ```
 Leia CLAUDE.md, REGRAS_RETOMADA.md e _artifacts/sentinelas_IND.md.
 Aplique _artifacts/persona_notebooklm.txt.
-Notebook: -p <PERFIL_PRO> -n <ID-IND> em TODO comando.
+Notebook: -p ind-pro -n <ID-IND> em TODO comando.
 Execute os prompts N, N+1 de prompts_indesculpaveis.md, cada um com as
 CLÁUSULAS FIXAS anexadas, via --prompt-file.
 Para cada prompt: consulta exegética → verificação (audita a anterior) →

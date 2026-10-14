@@ -54,8 +54,8 @@ CLÁUSULAS FIXAS
 1. **Testemunhas:** quais manuscritos contêm esta seção? ⚠️ **P46 não contém Rm 1.1–5.16** `[sentinela S1]` — não o cite como testemunha. Avalie ℵ, A, B, C, D (06), F/G (010/012), Ψ, 33, 1739 e o texto bizantino.
 2. **1.29:** a inserção de πορνείᾳ e as variações de ordem entre πονηρίᾳ, πλεονεξίᾳ, κακίᾳ — que testemunhas, que explicação (assimilação a listas paralelas?).
 3. **1.31:** ἀσπόνδους depois de ἀστόργους (Bizantino; TR: *implacable*) — testemunhas a favor e contra; a explicação de Metzger (*TCGNT*) `[a conferir]`.
-4. **1.32:** a variante "ocidental" que altera a relação entre fazer e aprovar `[a conferir: D*, latinas, Metzger]`. Se existir, ela **suaviza** ou **agrava** a acusação? Qual a implicação para o eixo focal?
-5. **2.1–2.29:** variantes de conjunção em 2.2 (δέ/γάρ), em 2.14 (ποιῶσιν/ποιῇ), em 2.16 (ὅτε/ἐν ᾗ ἡμέρᾳ; ordem de Χριστοῦ Ἰησοῦ) e em 2.17 (εἰ δέ / ἴδε) — e qualquer outra relevante que o corpus registre.
+4. **1.32:** a variante "ocidental" que altera a relação entre fazer e aprovar `[a conferir: D*, latinas, Metzger]` — ⚠️ *o aparato do SBLGNT não registra nenhuma unidade de variação entre as edições WH/Treg/NA28/RP em 1.32 (`_artifacts/VERIFICACAO_S1-S5.md`): **não pressupor que exista**; só o aparato do NA28 e Metzger decidem.* Se existir, ela **suaviza** ou **agrava** a acusação? Qual a implicação para o eixo focal?
+5. **2.1–2.29:** variantes de conjunção em 2.2 (δέ/γάρ — *sem unidade de variação entre as edições no aparato do SBLGNT; só o NA28 decide*), em 2.14 (ποιῶσιν/ποιῇ — *confirmada entre edições*), em 2.16 (ὅτε/ἐν ᾗ ἡμέρᾳ; ordem de Χριστοῦ Ἰησοῦ) e em 2.17 (εἰ δέ / ἴδε) — e qualquer outra relevante que o corpus registre.
 6. **3.1-20:** 3.7 (εἰ δέ / εἰ γάρ); 3.9 (προεχόμεθα e as leituras alternativas); a catena de 3.10-18 e a interpolação de 3.13-18 no Sl 14 (LXX 13) em alguns manuscritos da LXX `[a conferir]`.
 7. **A glosa:** Bultmann propôs 2.1 como glosa `[a conferir: "Glossen im Römerbrief", 1947]`. Há algum apoio manuscrito? Que critério interno a sustentou, e por que o consenso a rejeita?
 
@@ -168,7 +168,7 @@ Trabalhe com NA28/UBS5; registre onde o aparato diverge das traduções tradicio
    - μεστούς + 5 genitivos: φθόνου, φόνου, ἔριδος, δόλου, κακοηθείας
    - 12 acusativos em aposição: ψιθυριστάς, καταλάλους, θεοστυγεῖς, ὑβριστάς, ὑπερηφάνους, ἀλαζόνας, ἐφευρετὰς κακῶν, γονεῦσιν ἀπειθεῖς, ἀσυνέτους, ἀσυνθέτους, ἀστόργους, ἀνελεήμονας
 
-   A divisão em **quatro blocos** da proposta separa os quatro α-privativos finais (ἀσυνέτους, ἀσυνθέτους, ἀστόργους, ἀνελεήμονας), unidos por assonância? É divisão do texto ou do intérprete? Registrar a contagem (21 no NA28; 22 com ἀσπόνδους) como dependente da crítica textual.
+   A divisão em **quatro blocos** da proposta separa os quatro α-privativos finais (ἀσυνέτους, ἀσυνθέτους, ἀστόργους, ἀνελεήμονας), unidos por assonância? É divisão do texto ou do intérprete? Registrar a contagem como dependente da crítica textual: **21 no texto crítico; 23 no bizantino** (quem traz ἀσπόνδους traz também πορνείᾳ — não existe "22"); e notar que **ἀπειθεῖς** também é α-privativo e precede os quatro: a sequência é de **cinco**, e o "bloco de quatro" é recorte do intérprete (`_artifacts/VERIFICACAO_S1-S5.md`).
 3. **Jogos sonoros:** φθόνου φόνου; ἀσυνέτους ἀσυνθέτους — retórica para memorização? Paralelos.
 4. **Termos difíceis:** ψιθυριστάς × καταλάλους (o mexerico secreto e a calúnia aberta); **θεοστυγεῖς** — "odiados por Deus" (passivo, uso clássico) ou "que odeiam a Deus" (ativo)? `[sentinela S6]`; ὑβριστάς / ὑπερηφάνους / ἀλαζόνας — a tríade do orgulho; ἐφευρετὰς κακῶν; γονεῦσιν ἀπειθεῖς (por que a desobediência aos pais está aqui?).
 5. **Paralelos:** Sb 14.22-27; 1QS IV.9-11; Fílon (*De sacrificiis* 32 `[a conferir]`); listas greco-romanas. Paulo copia uma lista recebida ou a compõe para o argumento?

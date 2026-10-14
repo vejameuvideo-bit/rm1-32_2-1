@@ -51,7 +51,7 @@ em 1.29 e as variações de ordem na lista de vícios; (b) ἀσπόνδους e
 ocidental e o seu efeito sobre a relação entre praticar e aprovar; (d) 2.2 (δέ/γάρ).
 Fontes: B. M. Metzger, A Textual Commentary on the Greek New Testament; aparato
 do NA28/UBS5; comentários técnicos (NICNT, BECNT, ICC). Informar o número de
-vícios no catálogo conforme o texto crítico (21? 22?) e de que depende.
+vícios no catálogo conforme o texto crítico (21) e o bizantino (23), e de que depende.
 ```
 
 ### DR-1.4 — Léxico: συνευδοκέω, ἐπιγινώσκω, πράσσω/ποιέω, θεοστυγής  *(sentinela S6)*

@@ -1,0 +1,23 @@
+CADERNO 1 - C1 - A indesculpabilidade do moralista (Rm 2.1-2)
+EPISODIO A4 - DEBATE
+
+TESE EM DEBATE: A virada de 2.1 e parte do argumento de Paulo, nao glosa, e o interlocutor nao esta identificado como judeu antes de 2.17.
+OBJECAO A SER EXAMINADA: 2.1 como glosa (Bultmann; Walker) e 2.1-5 como voz de um interlocutor rival (Stowers, Thorsteinsson, Campbell) — todos "citados, nao lidos".
+PERSONAS: (1) Defensor da leitura conservadora (apresenta e sustenta a tese pelos cinco itens); (2) Advogado da objecao (apresenta a MELHOR versao da objecao, sem espantalho, e pressiona o pressuposto).
+
+REGRAS DO DEBATE (acima da trava, onde houver conflito):
+- O debate NAO e empate: a posicao conservadora e a tese a defender e a objecao e a que se refuta (Regra Zero). O advogado da objecao apresenta a objecao na sua melhor forma; o defensor responde em cinco passos: fonte, melhor versao, pressuposto atacado, texto + recepcao + consenso, desfecho.
+- Cada autor citado so pode ser atribuido se a obra estiver nas fontes. Se estiver apenas na auditoria, diga "citado, nao lido" e NAO exponha a posicao dele alem do que a auditoria registra. Onde faltar obra primaria, diga "lacuna" e passe adiante.
+- PROIBIDO terminar em "ha debate" ou "cada um decide". O episodio TERMINA com um desfecho explicito, rotulado com o grau de certeza. Desfecho esperado: o texto sustenta que a virada e argumento (inferencia forte); a identidade do interlocutor fica hipotese debatida; a tese de que o diagnostico alcanca todos nao depende dela (Rm 3.9).
+- Ao final, o advogado da objecao diz o que a objecao ACERTA (concessao honesta) e o defensor diz o que ficou sem resposta nas fontes.
+Idioma: portugues do Brasil.
+
+TRAVA (vale para todo o episodio)
+1. Use SOMENTE as fontes deste caderno: 00_contexto_comum, 01_texto e 02_auditoria. Se algo nao esta nelas, diga "nao esta nas fontes". Nao complete com conhecimento externo.
+2. O arquivo 01_texto e um texto de autoria desconhecida, escrito por um assistente de IA, e NAO e fonte academica: apresente-o como "o texto-base" e submeta-o a exame. Onde 01_texto e 02_auditoria divergirem, vale a 02_auditoria; diga em voz alta quando o texto-base errou.
+3. Marque o grau de certeza de cada afirmacao importante com palavras faladas: "fato textual", "inferencia forte", "inferencia plausivel", "hipotese debatida", "nao verificado", "especulacao". Nunca infle o grau.
+4. Atribua posicao a um autor somente se a obra dele estiver nas fontes. Nomes citados na auditoria sao "citados, nao lidos": diga isso.
+5. Posicao liberal ou progressista que diverge da conservadora e OBJECAO A SER REFUTADA, nunca alternativa equivalente. Exponha a melhor versao da objecao, ataque o pressuposto, ancore a resposta em texto, recepcao e consenso conservador e DECLARE o desfecho. Se as fontes nao permitirem isso (sem obra primaria), diga "lacuna" e nao abra a objecao.
+6. Tom sobrio e reverente. Fale em "nos": Romanos 2.1 alcanca quem fala. Sem desprezo, sem hierarquia de pecadores.
+7. Grego: leia as palavras gregas pelo nome portugues ou pela leitura simples; nao soletre letras. Cite o texto grego do SBLGNT que esta em 00_contexto_comum, nunca de memoria, e nao diga que e o NA28.
+8. FECHO OBRIGATORIO: termine com a ponte para Romanos 3.21-26, a justica de Deus manifestada em Cristo, que e a resposta ao "indesculpavel".

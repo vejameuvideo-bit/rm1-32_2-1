@@ -104,7 +104,7 @@ entrada (FRONTEIRA). Sem eles, usar `grep -n` nos `.md` de `_processados_md\`.
 
 | Item | |
 |---|---|
-| **Afirmação** | a sintaxe dá **três** grupos (4 dativos com πεπληρωμένους; 5 genitivos com μεστούς; 12 acusativos); o "quarto bloco" (4 α-privativos) é **análise**, e a contagem (21; 22 com ἀσπόνδους) depende da crítica textual |
+| **Afirmação** | a sintaxe dá **três** grupos (4 dativos com πεπληρωμένους; 5 genitivos com μεστούς; 12 acusativos); o "quarto bloco" (4 α-privativos) é **análise**, e a contagem depende da crítica textual (**21 crítico / 23 bizantino** — verificado em 08/10; "22" não existe) |
 | **Método 1** | consulta: *"Como Moo, Cranfield e Dunn dividem o catálogo de 1.29-31? A divisão em 4 blocos vem do texto ou do intérprete? Quantos vícios cada um conta?"* |
 | **Método 2** | **contar no NA28** (leitura do texto) e conferir nos comentários *ad loc.* |
 | **Cuidado** | o rascunho conta 21 contando "ἐφευρετὰς κακῶν" e "γονεῦσιν ἀπειθεῖς" como **um** item cada — **explicitar o critério** ao migrar |
@@ -172,7 +172,7 @@ entrada (FRONTEIRA). Sem eles, usar `grep -n` nos `.md` de `_processados_md\`.
 
 | Item | |
 |---|---|
-| **Afirmação** | o relatório do Cap1 dá certeza "altíssima" à identidade **judaica** do interlocutor; o rótulo honesto é HIPÓTESE DEBATIDA (o judeu só é nomeado em 2.17) |
+| **Afirmação** | o relatório do Cap1 dá certeza "altíssima" à identidade **judaica** do interlocutor; o rótulo honesto é HIPÓTESE DEBATIDA (o interlocutor só é identificado como judeu em 2.17) |
 | **Evidência já colhida** | confirmada em **4 pontos** (S13-15 §1; S10-12 §2) — **já corrigida** nas versões auditadas |
 | **Método 1** | consulta: *"Quem identifica o interlocutor de 2.1 como judeu, quem como gentio, quem como universal? Cite as obras."* |
 | **Método 2** | **verificar a versão auditada** (`semente/`): nenhum "Altíssima" restante para a identidade; e as obras de Stowers e Thorsteinsson **em disco** (por título **e** sobrenome) |

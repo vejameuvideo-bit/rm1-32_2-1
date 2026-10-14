@@ -51,11 +51,12 @@
 | Sequência (`Sequencia_Indesculpaveis.md`) | ✅ 8 sessões |
 | Estratégia de anéis do eixo focal | ✅ documentada; **execução ANTES dos 16 prompts** |
 | Prompts dos 4 anéis (`aneis/`) | ✅ 20 consultas de Deep Research, 4 × (R4 + C1–C3), 44 itens de mídia — **nada executado**; sintaxe da CLI a conferir |
-| Sentinelas | 🟡 **14 rascunhos, tabela vazia — trava ativa**; roteiro de verificação pronto (`_artifacts/ROTEIRO_VERIFICACAO_SENTINELAS.md`) |
+| Sentinelas | 🟡 **14/10: 8 verificadas (S1–S7, S14) por fontes abertas (`_artifacts/VERIFICACAO_FONTES_ABERTAS_2026-10-14.md`); faltam S8 e S11 para o anel 1.** 10/10: S2–S5. Antes: **14 rascunhos, tabela vazia — trava ativa; S1–S5 verificadas em parte em 08/10 (`_artifacts/VERIFICACAO_S1-S5.md`), nenhuma migrada**; roteiro de verificação pronto (`_artifacts/ROTEIRO_VERIFICACAO_SENTINELAS.md`) |
 | Lacunas de refutação | 🟡 8 linhas, **todas ⬜ não conferidas** |
 | Curadoria | 🟡 preenchida pelos documentos; **nenhuma obra aberta** |
 | Fase 0 · Etapa 5 (auditoria do relatório-semente) | ✅ prompts 13–15 (04/10) e 10–12 (06/10): leitura e correções; ⬜ itens A1–A33 a conferir em disco; ⬜ seções 1–9 e 16 não auditadas |
-| Fase 0 · Etapa 1 (perfil Pro) | 🟡 script pronto (`_scripts/etapa1_perfil_pro.ps1`); **rodar no Windows** |
+| Fase 0 · Etapa 1 (perfil Pro) | ✅ 14/10: perfil `ind-pro` → `aleinstitutoreformado@gmail.com`, `auth check --test` válido, `perfil.config.txt` gravado |
+| **Cadernos Rm 2.1-11** (`cadernos_rm2/`, 09/10) | 🟡 kit pronto: 4 cadernos × (3 deep dive + 1 debate + 2 vídeos) = 24 prompts + script (`criar_cadernos_rm2.ps1`, **não testado**) + auditoria do texto-base; **nada gerado no NotebookLM** |
 | Pasta local, biblioteca, notebook | ⬜ |
 | Saídas 00–16 | ⬜ |
 
@@ -63,8 +64,11 @@
 |---|---|---|---|
 | IND - Eixo 1.29-2.2 · Anel 1–4 | — | — | ⬜ criar primeiro (ESTRATEGIA §6) |
 | IND - Rm 1.18-3.20 | — | — | ⬜ criar na Fase 0, Etapa 6 |
+| IND Rm2 C1 - Indesculpabilidade do moralista | `bd988699-9780-4722-a6b4-49bf1b16020e` | 3, todas `ready` (14/10) | ✅ criado; **mídia 6/6 pronta** (4 áudios + 2 vídeos) |
+| IND Rm2 C2 - Paciencia e ira entesourada | `79d06c63-2cdd-4d16-ac2c-02a72ec29777` | 3, todas `ready` (14/10) | 🟡 6/6 pedidos: 4 prontos (3 áudios + 1 vídeo), 2 `pending` na fila do limite de 5 h (1 áudio + 1 vídeo) — **não reenviar** |
+| IND Rm2 C3 · C4 | — | — | ⬜ |
 
-**Conta:** Pro `aleinstitutoreformado@gmail.com` · perfil `<PERFIL_PRO>` a criar.
+**Conta:** Pro `aleinstitutoreformado@gmail.com` · perfil **`ind-pro`** (criado e validado em 14/10/2026).
 **Relação com a U02 do JDD:** projetos **paralelos**.
 
 ---
@@ -103,4 +107,7 @@
    copiar `Relatorio_Cap2_Romanos.md` (hoje só no Drive) se for usado.
 3. Etapa 4 — **S8 tentada em 07/10 sem acesso a fonte: continua NÃO verificada** (ver `_LOG_EXECUCAO.md` §7; indício a favor da atribuição, falta ler Bultmann/Käsemann/Fitzmyer; nova objeção **L9**, Walker 1999). Verificar as sentinelas pelo roteiro (`_artifacts/ROTEIRO_VERIFICACAO_SENTINELAS.md`), lote A primeiro (S1–S5, só NA28). **S8 antes de qualquer outra coisa que a cite:** a atribuição a Bultmann pode estar errada.
 4. ~~Etapa 5 — auditar o relatório-semente~~ ✅ 04/10; falta conferir A1–A11 em disco.
+0. **15/10:** rodar `_scripts/orquestrar_cadernos_rm2.ps1 -Executar` (faz C2→C4, espera a cota, baixa e gera relatório em `cadernos_rm2/relatorios/`). Ao voltar: ler o relatório; se INCOMPLETO, rodar de novo.
+0. **14/10:** script dos cadernos corrigido contra a CLI 0.8.4 real (`-n` vai depois do subcomando; `--prompt-file`; `source wait`); vídeos `cinematic` trocados (exigem conta Ultra).
+0. **Prioridade (09/10):** rodar `cadernos_rm2/` na máquina do usuário (ver `cadernos_rm2/README.md`); conferir o texto-base antes de publicar qualquer áudio.
 5. Anéis 1→4 (ESTRATEGIA §6), depois os 16 prompts.

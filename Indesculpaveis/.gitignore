@@ -3,3 +3,8 @@ biblioteca/
 _processados_md/
 _fora_do_notebook/
 projeto.config.txt
+
+# Saidas locais do orquestrador dos cadernos (audio/video, logs, estado)
+cadernos_rm2/saida/
+cadernos_rm2/relatorios/
+cadernos_rm2/estado_execucao.json
