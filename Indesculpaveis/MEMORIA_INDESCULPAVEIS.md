@@ -55,7 +55,7 @@
 | Lacunas de refutação | 🟡 8 linhas, **todas ⬜ não conferidas** |
 | Curadoria | 🟡 preenchida pelos documentos; **nenhuma obra aberta** |
 | Fase 0 · Etapa 5 (auditoria do relatório-semente) | ✅ prompts 13–15 (04/10) e 10–12 (06/10): leitura e correções; ⬜ itens A1–A33 a conferir em disco; ⬜ seções 1–9 e 16 não auditadas |
-| Fase 0 · Etapa 1 (perfil Pro) | 🟡 script pronto (`_scripts/etapa1_perfil_pro.ps1`); **rodar no Windows** |
+| Fase 0 · Etapa 1 (perfil Pro) | ✅ 14/10: perfil `ind-pro` → `aleinstitutoreformado@gmail.com`, `auth check --test` válido, `perfil.config.txt` gravado |
 | **Cadernos Rm 2.1-11** (`cadernos_rm2/`, 09/10) | 🟡 kit pronto: 4 cadernos × (3 deep dive + 1 debate + 2 vídeos) = 24 prompts + script (`criar_cadernos_rm2.ps1`, **não testado**) + auditoria do texto-base; **nada gerado no NotebookLM** |
 | Pasta local, biblioteca, notebook | ⬜ |
 | Saídas 00–16 | ⬜ |
@@ -65,7 +65,7 @@
 | IND - Eixo 1.29-2.2 · Anel 1–4 | — | — | ⬜ criar primeiro (ESTRATEGIA §6) |
 | IND - Rm 1.18-3.20 | — | — | ⬜ criar na Fase 0, Etapa 6 |
 
-**Conta:** Pro `aleinstitutoreformado@gmail.com` · perfil `<PERFIL_PRO>` a criar.
+**Conta:** Pro `aleinstitutoreformado@gmail.com` · perfil **`ind-pro`** (criado e validado em 14/10/2026).
 **Relação com a U02 do JDD:** projetos **paralelos**.
 
 ---

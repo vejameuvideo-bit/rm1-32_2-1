@@ -9,7 +9,7 @@ tocado e a sintaxe da CLI abaixo é esboço.*
 --mode deep --import-all --cited-only`; `generate audio|video|…`;
 `artifact list|wait`). **Conferir cada flag com `notebooklm generate --help`
 na versão instalada** (a 0.8.4 mudou módulos em relação à 0.7.3) antes de rodar
-em lote. `<PERFIL_PRO>` e `<ID>` são marcadores: perfil de
+em lote. `ind-pro` e `<ID>` são marcadores: perfil de
 `aleinstitutoreformado@gmail.com` (Etapa 1) e ID do caderno do anel.
 
 ---
@@ -72,7 +72,7 @@ dedicada, DECLARE A LACUNA — nunca a preencha.
 ⚠️ **Trava de sentinelas:** nenhum relatório de anel e nenhuma mídia com a tabela
 verificada vazia. Mínimo para o anel 1: **S1–S8 e S11**.
 
-⚠️ **`-p <PERFIL_PRO>` e `-n <ID>` em todo comando.** Não trocar o perfil global.
+⚠️ **`-p ind-pro` e `-n <ID>` em todo comando.** Não trocar o perfil global.
 
 ---
 

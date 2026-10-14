@@ -40,11 +40,11 @@ O v. 3 e os vv. 7–10 em detalhe **não são comentados pelo texto-base**; isso
 ```powershell
 cd C:\Users\admintrt9a\Projetos\Indesculpaveis
 # 1. simulação (não altera nada)
-powershell -ExecutionPolicy Bypass -File _scripts\criar_cadernos_rm2.ps1 -Perfil <PERFIL_PRO>
+powershell -ExecutionPolicy Bypass -File _scripts\criar_cadernos_rm2.ps1 -Perfil ind-pro
 # 2. cadernos + fontes (um de cada vez; conferir 'ready')
-powershell -ExecutionPolicy Bypass -File _scripts\criar_cadernos_rm2.ps1 -Perfil <PERFIL_PRO> -Executar -Fase fontes -Caderno 1
+powershell -ExecutionPolicy Bypass -File _scripts\criar_cadernos_rm2.ps1 -Perfil ind-pro -Executar -Fase fontes -Caderno 1
 # 3. UM item de mídia como teste, depois o lote
-powershell -ExecutionPolicy Bypass -File _scripts\criar_cadernos_rm2.ps1 -Perfil <PERFIL_PRO> -Executar -Fase midia -Caderno 1 -Ids "1=<uuid>" -Somente c1_A1
+powershell -ExecutionPolicy Bypass -File _scripts\criar_cadernos_rm2.ps1 -Perfil ind-pro -Executar -Fase midia -Caderno 1 -Ids "1=<uuid>" -Somente c1_A1
 ```
 
 ⚠️ **Sintaxe conferida em 14/10 contra a `notebooklm-py` 0.8.4 instalada (parser real, sem login); execução contra o Google ainda não testada.** **Regra 11-D:** um `timeout` em `generate` **não é falha** — nunca repetir o comando; usar `artifact list` / `artifact wait <id>`. Antes de subir a primeira fonte, `auth check --test` deve abrir `aleinstitutoreformado@gmail.com` (Etapa 1 da Fase 0, ainda pendente).

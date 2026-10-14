@@ -255,9 +255,9 @@ relatório entrar no notebook como fonte.
 ### Conta — decidida em 03/10/2026
 
 **Conta Pro do NotebookLM: `aleinstitutoreformado@gmail.com`.**
-**Perfil da CLI:** `<PERFIL_PRO>` — **ainda não criado/medido**. Na Fase 0,
+**Perfil da CLI:** `ind-pro` — **criado e medido em 14/10/2026** (`auth check --test` ✓, conta confirmada, 175 cadernos na conta). Histórico: na Fase 0,
 Etapa 1: fazer o login dessa conta num perfil próprio, gravar o nome do perfil
-em `perfil.config.txt` e substituir `<PERFIL_PRO>` nos documentos.
+em `perfil.config.txt` e substituir o marcador do perfil nos documentos (feito em 14/10: `ind-pro`).
 
 ⚠️ **Não confundir com as outras contas citadas nos documentos irmãos** — cada
 uma é de um papel ou projeto diferente:
@@ -275,7 +275,7 @@ uma é de um papel ou projeto diferente:
 notebook criado na conta errada é trabalho perdido.
 
 ⚠️ **Estado global:** o perfil global da CLI é compartilhado entre janelas.
-**Não trocar o perfil global** — passar `-p <PERFIL_PRO>` em cada comando.
+**Não trocar o perfil global** — passar `-p ind-pro` em cada comando.
 Pendências herdadas (`../ESTADO_ATUAL_2026-10-03.md` §6): o login por cookies
 da Pro falhou no Windows (`rookie_cookies.pyd`, "DLL load failed … Acesso
 negado"); `patch_rpc_limit.ps1` aponta o módulo da 0.7.3. As duas incidem

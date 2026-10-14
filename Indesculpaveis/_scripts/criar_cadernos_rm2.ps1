@@ -1,9 +1,9 @@
 # criar_cadernos_rm2.ps1 -- cria os 4 cadernos de Rm 2.1-11 no NotebookLM e dispara a midia
 #
 # Uso (Windows, PowerShell 5.1), a partir da pasta Indesculpaveis:
-#   powershell -ExecutionPolicy Bypass -File _scripts\criar_cadernos_rm2.ps1 -Perfil <PERFIL_PRO>                      (SIMULACAO: so mostra)
-#   powershell -ExecutionPolicy Bypass -File _scripts\criar_cadernos_rm2.ps1 -Perfil <PERFIL_PRO> -Executar -Fase fontes   (cria cadernos e sobe fontes)
-#   powershell -ExecutionPolicy Bypass -File _scripts\criar_cadernos_rm2.ps1 -Perfil <PERFIL_PRO> -Executar -Fase midia -Caderno 1
+#   powershell -ExecutionPolicy Bypass -File _scripts\criar_cadernos_rm2.ps1 -Perfil ind-pro                      (SIMULACAO: so mostra)
+#   powershell -ExecutionPolicy Bypass -File _scripts\criar_cadernos_rm2.ps1 -Perfil ind-pro -Executar -Fase fontes   (cria cadernos e sobe fontes)
+#   powershell -ExecutionPolicy Bypass -File _scripts\criar_cadernos_rm2.ps1 -Perfil ind-pro -Executar -Fase midia -Caderno 1
 #   ... -Ids "1=<uuid>,2=<uuid>,3=<uuid>,4=<uuid>"   (reutiliza cadernos ja criados)
 #   ... -PermitirCinematic   (so com conta Google AI Ultra; ver abaixo)
 #

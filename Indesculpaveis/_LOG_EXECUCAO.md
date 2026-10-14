@@ -227,3 +227,10 @@ de memória; o indício aponta 15.11 e não confirma 16.25-27.
 - **CLI:** agente instalou `notebooklm-py==0.8.4` e passou cada comando pelo parser real. O script estava quebrado (`-n` é opção do subcomando, não global). Corrigido: `--prompt-file`, `create --json`, `source add --json` + `source wait`, `--length` do manifest, sem `--style` em cinematic/short, persona com escape para PS 5.1. Sem teste contra o Google.
 - **Manifest:** `cinematic` exige Google AI Ultra (help da CLI); c2_V2 → explainer/watercolor, c4_V1 → explainer/heritage.
 
+## 13. 14/10/2026 — Fase 0, Etapa 1 concluída (na máquina do usuário)
+
+- Perfil **`ind-pro`** → `aleinstitutoreformado@gmail.com` (authuser 0). `auth check --test`: todos ✓, 28 cookies, `Token fetch` ✓, 175 cadernos na conta. `perfil.config.txt` = `ind-pro`. Perfil global (`epistolas-joao-pro`) **não** foi tocado.
+- **Armadilha medida (CLI 0.8.4):** `login` com navegador sem sessão Google pode cair na página pública de `notebooklm.google.com`; a CLI toma isso por «Already logged in» e grava um `storage_state.json` **sem** `SID`/`__Secure-1PSIDTS` (só `NID`, `OTZ`, `__Host-GAPS`). Aconteceu 2×, inclusive com `--browser chrome --fresh`. Código: `_browser/browser_capture.py` aceita qualquer URL no host do app como login concluído.
+- **Solução que funcionou:** fechar o Chrome; abrir `chrome.exe --user-data-dir="%USERPROFILE%\.notebooklm\profiles\ind-pro\browser_profile"`, entrar na conta e confirmar a lista de cadernos em notebooklm.google.com; fechar; rodar o login **sem** `--fresh`. **Usar isto em todo perfil novo.**
+- Pasta local do projeto: `C:\Users\admintrt9a\Projetos\INDESCULPAVEIS\Indesculpaveis` (o Windows não distingue maiúsculas: `...\Projetos\Indesculpaveis` é a pasta de cima).
+
