@@ -28,7 +28,7 @@ O v. 3 e os vv. 7–10 em detalhe **não são comentados pelo texto-base**; isso
 
 *14/10: os dois vídeos `cinematic` foram trocados — o formato exige Google AI Ultra, e a conta é AI Pro.*
 
-**Cota:** 16 áudios + 8 vídeos — dentro de 20/20 por dia e por conta, sobram 4 áudios e 12 vídeos `[a conferir: cota medida em outro projeto]`.
+**Cota (medida em 14/10):** o limite que manda é a **janela de 5 horas** do plano Google (painel «AI Usage & Limits»): um caderno inteiro (6 mídias) consumiu quase toda a janela. **Planeje 1 caderno por janela.** Acima do limite, os pedidos ficam na fila e «geram depois» — não reenvie.
 
 ## O debate (A4) — duas travas acima das demais
 
