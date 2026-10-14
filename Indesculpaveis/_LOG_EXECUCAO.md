@@ -239,3 +239,7 @@ de memória; o indício aponta 15.11 e não confirma 16.25-27.
 - `"... (exit $LASTEXITCODE: ...)"` — o `:` depois da variável é lido como drive. Corrigido para `${LASTEXITCODE}`.
 - **Novo teste disponível nesta sessão:** PowerShell 7.4.6 (release do GitHub). Os dois scripts passam no parser (`[Parser]::ParseFile`) e o `criar_cadernos_rm2.ps1` rodou de ponta a ponta (simulação e `-Executar -Fase tudo -Caderno 1`) contra uma CLI **simulada** que devolve o JSON da 0.8.4: os 13 comandos saem na ordem e com os argumentos esperados. Limite: PS 7 ≠ PS 5.1 e a CLI era simulada.
 
+## 15. 14/10/2026 — primeiro caderno real
+
+- `IND Rm2 C1 - Indesculpabilidade do moralista` = `bd988699-9780-4722-a6b4-49bf1b16020e` (conta `aleinstitutoreformado`, perfil `ind-pro`). Persona aplicada. Fontes `ready`: 00_contexto_comum.md (342849db…), 01_texto.md (d59ffeff…), 02_auditoria.md (1ea7034f…). **Primeira execução real do script: `create --json`, `configure --persona` e `source add/wait` funcionaram na CLI 0.8.4 / PS 5.1.**
+
